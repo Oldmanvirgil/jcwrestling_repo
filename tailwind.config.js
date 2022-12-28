@@ -22,12 +22,12 @@ module.exports = {
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        hallbg: "url('/../images/Hall of fame background no title.jpg')",
-        hallBgTop: "url('/../images/hall of fame background top.png')",
-        bryerBg: "url('/../images/bryerBg.png')",
-        evanBg: "url('/../images/evanBg.png')",
-        camBg: "url('/../images/camBg.png')",
-        bigBg: "url('/../images/background image big.jpg')",
+        hallbg: "url('/./images/Hall of fame background no title.jpg')",
+        hallBgTop: "url('/./images/hall of fame background top.png')",
+        bryerBg: "url('/./images/bryerBg.png')",
+        evanBg: "url('/./images/evanBg.png')",
+        camBg: "url('/./images/camBg.png')",
+        bigBg: "url('/./images/background image big.jpg')",
       },
       colors: {
         bordeaux: {
