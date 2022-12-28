@@ -956,11 +956,11 @@ html {
 }
 
 .bg-bigBg {
-  background-image: url('/../images/background image big.jpg');
+  background-image: url('/./images/background image big.jpg');
 }
 
 .bg-hallbg {
-  background-image: url('/../images/Hall of fame background no title.jpg');
+  background-image: url('/./images/Hall of fame background no title.jpg');
 }
 
 .bg-cover {
