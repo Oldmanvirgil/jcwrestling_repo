@@ -964,6 +964,10 @@ html {
   background-position: center;
 }
 
+.bg-repeat-y {
+  background-repeat: repeat-y;
+}
+
 .fill-current {
   fill: currentColor;
 }
@@ -1492,16 +1496,8 @@ html {
     border-radius: 1.5rem;
   }
 
-  .xl\:bg-bigBg {
-    background-image: url('/./images/background image big.jpg');
-  }
-
   .xl\:bg-cover {
     background-size: cover;
-  }
-
-  .xl\:bg-repeat-y {
-    background-repeat: repeat-y;
   }
 
   .xl\:p-4 {
