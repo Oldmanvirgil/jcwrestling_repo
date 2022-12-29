@@ -964,10 +964,6 @@ html {
   background-position: center;
 }
 
-.bg-repeat-y {
-  background-repeat: repeat-y;
-}
-
 .fill-current {
   fill: currentColor;
 }
@@ -1348,6 +1344,10 @@ html {
 }
 
 @media (min-width: 1280px) {
+  .xl\:relative {
+    position: relative;
+  }
+
   .xl\:sticky {
     position: sticky;
   }
@@ -1382,6 +1382,14 @@ html {
 
   .xl\:top-64 {
     top: 16rem;
+  }
+
+  .xl\:z-0 {
+    z-index: 0;
+  }
+
+  .xl\:m-0 {
+    margin: 0px;
   }
 
   .xl\:mx-auto {
@@ -1426,12 +1434,12 @@ html {
     width: auto;
   }
 
-  .xl\:w-9\/12 {
-    width: 75%;
-  }
-
   .xl\:w-full {
     width: 100%;
+  }
+
+  .xl\:w-9\/12 {
+    width: 75%;
   }
 
   .xl\:w-1\/3 {
@@ -1494,6 +1502,18 @@ html {
 
   .xl\:rounded-3xl {
     border-radius: 1.5rem;
+  }
+
+  .xl\:bg-bigBg {
+    background-image: url('/./images/background image big.jpg');
+  }
+
+  .xl\:bg-cover {
+    background-size: cover;
+  }
+
+  .xl\:bg-repeat-y {
+    background-repeat: repeat-y;
   }
 
   .xl\:p-4 {
