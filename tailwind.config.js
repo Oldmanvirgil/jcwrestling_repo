@@ -28,6 +28,8 @@ module.exports = {
         evanBg: "url('/./images/evanBg.png')",
         camBg: "url('/./images/camBg.png')",
         bigBg: "url('/./images/background image big.jpg')",
+        heroBgVid: "url('/./images/src/images/hero _background_final_2.mp4')",
+
       },
       colors: {
         bordeaux: {

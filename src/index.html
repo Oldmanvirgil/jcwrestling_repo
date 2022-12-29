@@ -11,7 +11,7 @@
     />
     <link href="./output.css" rel="stylesheet" />
 
-    <title>Junction City wrestling</title>
+    <title>jctigerwrestling.com</title>
   </head>
   <body>
     <div id="fb-root"></div>
@@ -24,20 +24,14 @@
     ></script>
     <!-- header & Hero section -->
     <div
-      class="bg:black relative m-0 flex w-full flex-col items-center justify-center bg-bigBg bg-repeat-y"
+      class=" relative m-0 flex w-full flex-col items-center justify-center bg-bigBg bg-repeat-y"
     >
       <div
         id="top"
-        class="bg:black relative m-0 w-full items-center justify-center xl:h-screen"
+        class="bg:black relative w-full m-0  items-center justify-center xl:h-screen"
       >
-        <div class="hidden w-full xl:flex">
-          <video autoplay loop muted class="fixed h-auto w-full">
-            <source
-              src="./images/hero _background_final_2.mp4"
-              type="video/mp4"
-            />
-            Your browser does not support the video tag.
-          </video>
+        <div class="w-full xl:flex bg-heroBgVid">
+          
         </div>
         <header
           class="flex w-full items-center justify-center text-lg font-bold"
@@ -50,10 +44,10 @@
               >
                 <!-- logo & mission container -->
                 <div
-                  class="flex basis-6/12 backdrop-blur-md xl:mb-20 xl:rounded-3xl xl:shadow-2xl xl:shadow-black"
+                  class="flex -z-10 basis-6/12 backdrop-blur-none xl:mb-20 xl:rounded-3xl xl:shadow-2xl xl:shadow-black"
                 >
-                  <div class="flex flex-row p-2">
-                    <div class="p-6">
+                  <div class="flex z-10 flex-row p-2">
+                    <div class="p-6 z-10">
                       <img
                         src="./images/17TIGERWRESTLING.jpg"
                         alt=""
@@ -174,7 +168,7 @@
       <div
         class="relative z-0 m-0 flex w-full  flex-row bg-bigBg  bg-cover bg-repeat-y"
       >
-        <div class="sticky top-0 hidden h-screen basis-3/12 xl:inline-block">
+        <div class="sticky top-0  pt-5 hidden h-screen basis-3/12 xl:inline-block">
           <div
             class="sticky top-0 hidden justify-center py-5 px-5 capitalize text-saffron-600 xl:flex xl:flex-row"
           >
@@ -384,9 +378,9 @@
 
         <div class="flex flex-col xl:w-9/12">
           <!-- Teams container -->
-          <div class="flex space-y-20 scroll-smooth">
+          <div class="flex  space-y-5 xl:space-y-20 scroll-smooth">
             <div
-              class="z-0 mx-auto my-4 flex w-full flex-col items-start space-y-20 px-4 xl:py-40"
+              class="z-0 mx-auto xl:my-4 flex w-full flex-col items-start space-y-5 xl:space-y-20 px-4 xl:py-40"
             >
               <!-- Junction City High School Section -->
               <div
@@ -845,10 +839,10 @@
               <!-- small -->
               <div
                 id="jchs"
-                class="flex w-full flex-col items-center space-y-5 p-5 hover:duration-300 xl:hidden"
+                class="flex w-full flex-col  items-center space-y-5 p-1 hover:duration-300 xl:hidden"
               >
                 <div
-                  class="mx-auto flex w-full flex-col items-center rounded-3xl border-x-4 border-bordeaux-800 bg-black/40 backdrop-blur-md"
+                  class="mx-auto  flex w-full flex-col items-center rounded-3xl border-x-4 border-bordeaux-800 bg-black/40 backdrop-blur-md"
                 >
                   <div
                     id="accordion-collapse"
@@ -887,7 +881,7 @@
                                 />
                               </g>
                             </svg>
-                            <span>Junction City Wrestling Facebook Feed</span>
+                            <span class="text-sm">Junction City Wrestling Facebook Feed</span>
                           </span>
                           <svg
                             data-accordion-icon
