@@ -1344,10 +1344,6 @@ html {
 }
 
 @media (min-width: 1280px) {
-  .xl\:relative {
-    position: relative;
-  }
-
   .xl\:sticky {
     position: sticky;
   }
@@ -1382,14 +1378,6 @@ html {
 
   .xl\:top-64 {
     top: 16rem;
-  }
-
-  .xl\:z-0 {
-    z-index: 0;
-  }
-
-  .xl\:m-0 {
-    margin: 0px;
   }
 
   .xl\:mx-auto {
