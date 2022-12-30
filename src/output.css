@@ -948,8 +948,8 @@ html {
   background-image: url('/./images/Hall of fame background no title.jpg');
 }
 
-.bg-cover {
-  background-size: cover;
+.bg-contain {
+  background-size: contain;
 }
 
 .bg-center {
