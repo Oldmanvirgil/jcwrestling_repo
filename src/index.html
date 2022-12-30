@@ -24,27 +24,28 @@
     ></script>
     <!-- header & Hero section -->
     <div
-      class="relative -z-20 m-0 flex w-full flex-col items-center justify-center "
+      class=" relative  bg-black/20  m-0 flex w-full flex-col items-center justify-center"
     >
       <div
         id="top"
-        class="relative m-0 flex h-auto w-full flex-col items-center justify-center xl:h-screen"
+        class="flex flex-col relative w-full m-0  h-auto items-center justify-center xl:h-screen"
       >
-        <div class="-z-10 w-full xl:flex">
-          <video autoplay loop muted class="fixed w-screen">
+        <div class="w-full xl:flex -z-10  ">
+          <video autoplay loop muted class="fixed  w-screen">
             <source
               src="./images/hero _background_final_2.mp4"
               type="video/mp4"
             />
             Your browser does not support the video tag.
           </video>
+          
         </div>
         <header
           class="flex w-full items-center justify-center text-lg font-bold"
         >
           <div>
             <!-- header section -->
-            <div class="flex xl:h-screen xl:items-center xl:px-20">
+            <div class="flex  xl:h-screen xl:items-center xl:px-20">
               <div
                 class="flex flex-col xl:sticky xl:top-20 xl:flex-row xl:items-start xl:justify-start"
               >
@@ -52,19 +53,19 @@
                 <div
                   class="flex backdrop-blur-none xl:mb-20 xl:rounded-3xl xl:shadow-2xl xl:shadow-black"
                 >
-                  <div class="flex xl:flex-row">
-                    <div class="z-10 w-1/2 p-6 xl:w-auto">
+                  <div class="flex  xl:flex-row ">
+                    <div class="w-1/2 xl:w-auto p-6 z-10">
                       <img
                         src="./images/17TIGERWRESTLING.jpg"
                         alt=""
-                        class="rounded-2xl xl:mx-auto xl:w-auto"
+                        class="  xl:mx-auto rounded-2xl xl:w-auto"
                       />
                     </div>
                     <div
-                      class="xl:items-bottom flex items-center justify-center pt-3 text-saffron-600 xl:flex-col xl:p-4"
+                      class="  xl:items-bottom flex xl:flex-col items-center justify-center pt-3 text-saffron-600 xl:p-4"
                     >
                       <h1
-                        class="flex text-left text-lg capitalize xl:text-3xl xl:leading-loose"
+                        class="flex text-left  text-lg capitalize xl:text-3xl xl:leading-loose "
                       >
                         Building humble champions on and off the mat!
                       </h1>
@@ -96,7 +97,7 @@
                 </div>
 
                 <div
-                  class="mx-auto hidden w-full p-10 capitalize text-saffron-600 xl:flex xl:flex-row xl:space-x-10"
+                  class="mx-auto hidden w-full p-10 capitalize text-saffron-600 xl:flex  xl:flex-row xl:space-x-10"
                 >
                   <!-- Menu Items -->
                   <div
@@ -171,16 +172,15 @@
         </header>
       </div>
       <!-- Teams, sidebar & Information -->
-      <div class="relative z-0 m-0 flex w-full flex-row bg-bigBg  bg-cover bg-repeat-y">
-        
-        <div
-          class="sticky top-0 hidden h-screen basis-3/12 pt-5 xl:inline-block"
-        >
+      <div
+        class="relative z-0 m-0  xl:flex xl:w-full  xl:flex-row   bg-bigBg  bg-cotain xl:bg-cover bg-repeat-y"
+      >
+        <div class="sticky top-0  pt-5 hidden h-screen basis-3/12 xl:inline-block">
           <div
             class="sticky top-0 hidden justify-center py-5 px-5 capitalize text-saffron-600 xl:flex xl:flex-row"
           >
             <div
-              class="mx-4 mb-7 flex w-full scroll-m-1 flex-col rounded-3xl border-x-4 border-bordeaux-800 shadow-2xl shadow-black duration-300 hover:-translate-y-1 hover:shadow-yellow-100 "
+              class="mx-4 mb-7 flex w-full scroll-m-1 flex-col rounded-3xl border-x-4 border-bordeaux-800 shadow-2xl shadow-black duration-300 hover:-translate-y-1 hover:shadow-yellow-100 xl:mt-0"
             >
               <div
                 class="z-10 flex w-full flex-col justify-start space-y-3 rounded-2xl bg-black/60 pb-5"
@@ -383,11 +383,11 @@
           </div>
         </div>
 
-        <div class="flex flex-col w-full pt-32 xl:w-9/12">
+        <div class="flex flex-col pt-32  xl:w-9/12 bg-big bg-cover">
           <!-- Teams container -->
-          <div class="flex space-y-5 scroll-smooth xl:space-y-20">
+          <div class="flex  space-y-5 xl:space-y-20 scroll-smooth">
             <div
-              class="z-0 mx-auto flex w-full flex-col items-start space-y-5 px-1 xl:my-4 xl:space-y-20 xl:px-4 xl:py-40"
+              class="z-0 mx-auto xl:my-4 flex w-full flex-col items-start space-y-5 xl:space-y-20  px-1 xl:px-4 xl:py-40"
             >
               <!-- Junction City High School Section -->
               <div
@@ -846,15 +846,15 @@
               <!-- small -->
               <div
                 id="jchs"
-                class="flex w-full flex-col items-start space-y-4 p-1 bg-bigBg bg-cover xl:hidden"
+                class="flex w-full flex-col items-start space-y-5 p-1 xl:hidden"
               >
                 <div
-                  class="mx-auto flex w-full flex-col items-center space-y-4 rounded-3xl"
+                  class="mx-auto  flex w-full flex-col items-center rounded-3xl  "
                 >
                   <div
                     id="accordion-collapse"
                     data-accordion="collapse"
-                    class="mx-auto flex flex-col space-y-3 rounded-xl text-center"
+                    class=" mx-auto flex flex-col space-y-3 rounded-xl  text-center"
                   >
                     <a href="#jchs_fbmb">
                       <h2 id="accordion-collapse-heading-1">
@@ -862,7 +862,7 @@
                           type="button"
                           class="menu-button"
                           data-accordion-target="#accordion-collapse-smallfacebookFeed"
-                          aria-expanded="false"
+                          aria-expanded="true"
                           aria-controls="accordion-collapse-smallfacebookFeed"
                         >
                           <span class="mx-auto">
@@ -888,9 +888,7 @@
                                 />
                               </g>
                             </svg>
-                            <span class="text-sm"
-                              >Junction City Wrestling Facebook Feed</span
-                            >
+                            <span class="text-sm">Junction City Wrestling Facebook Feed</span>
                           </span>
                           <svg
                             data-accordion-icon
@@ -913,9 +911,9 @@
                       class="hidden"
                       aria-labelledby="accordion-collapse-heading-1"
                     >
-                      <div id="jchs_fbmb" class="hidden">
+                      <div id="jchs_fbmb" class="hidden w-2/5 flex-col xl:flex">
                         <div id="accordion-collapse" data-accordion="collapse">
-                          <div class="rounded-xl">
+                          <div class="rounded-xl bg-saffron-200/40 p-2">
                             <div
                               class="fb-page"
                               data-href="https://www.facebook.com/profile.php?id=100046953702350"
@@ -940,7 +938,7 @@
                           </div>
                         </div>
                       </div>
-                      <div id="jchs_fbmb" class="flex xl:hidden">
+                      <div id="jchs_fbmb" class="block xl:hidden">
                         <div id="accordion-collapse" data-accordion="collapse">
                           <div class="rounded-xl bg-saffron-200/80 p-2">
                             <div
@@ -974,20 +972,20 @@
                       <div
                         id="accordion-collapse"
                         data-accordion="collapse"
-                        class="flex flex-col rounded-xl text-center"
+                        class="flex w-full flex-col space-y-3 rounded-xl text-center"
                       >
                         <div
-                          class="flex flex-col items-center justify-center text-center font-bold capitalize text-saffron-600"
+                          class="flex w-full flex-col items-center justify-center space-y-3 text-center text-3xl font-bold capitalize text-saffron-600"
                         >
                           <div
-                            class="mt-0 flex-col rounded-t-2xl bg-bordeaux-800 p-2"
+                            class="mt-0  flex w-full rounded-t-2xl bg-bordeaux-800 p-6"
                           >
-                            <h2 class="mx-auto text-sm">
+                            <h2 class="text-sm mx-auto">
                               junction city high school wrestling
                             </h2>
                           </div>
 
-                          <div class="flex flex-col space-y-4 p-4">
+                          <div class="flex w-full  flex-col space-y-4 p-4">
                             <h2 id="accordion-collapse-heading-11">
                               <button
                                 type="button"
@@ -1025,9 +1023,7 @@
                                   id="accordion-collapse"
                                   data-accordion="collapse"
                                 >
-                                  <div
-                                    class="w-full rounded-xl bg-saffron-200/40 p-2"
-                                  >
+                                  <div class="rounded-xl bg-saffron-200/40 p-2">
                                     <div
                                       id="jchs_messagerBoard"
                                       class="flex w-full flex-col items-start justify-center rounded-2xl bg-saffron-200/80 p-6 duration-300"
@@ -1056,9 +1052,7 @@
                                 aria-expanded="false"
                                 aria-controls="accordion-collapse-jchsSchedule_small"
                               >
-                                <span class="mx-auto w-full text-sm"
-                                  >Schedule</span
-                                >
+                                <span class="mx-auto w-full text-sm">Schedule</span>
                                 <svg
                                   data-accordion-icon
                                   class="h-6 w-6 shrink-0"
@@ -1109,9 +1103,7 @@
                                 aria-expanded="false"
                                 aria-controls="accordion-collapse-jchsRoster_small"
                               >
-                                <span class="mx-auto w-full text-sm"
-                                  >Roster</span
-                                >
+                                <span class="mx-auto w-full text-sm">Roster</span>
                                 <svg
                                   data-accordion-icon
                                   class="h-6 w-6 shrink-0"
@@ -1135,10 +1127,11 @@
                             >
                               <div id="jchsRoster" class="program-dropdown">
                                 <p
-                                  class="w-full py-4 text-center text-sm font-bold capitalize text-bordeaux-800"
+                                  class="w-full py-4 text-center text-sm font-bold capitalize text-bordeaux-800 "
                                 >
                                   Roster
                                 </p>
+                                
                               </div>
                             </div>
                           </div>
@@ -1148,11 +1141,9 @@
                             <div
                               class="mt-0 flex w-full rounded-t-2xl bg-bordeaux-800 py-1"
                             >
-                              <h2 class="mx-auto">
-                                Oaklea Middle School Wrestling
-                              </h2>
+                              <h2 class="mx-auto">Oaklea Middle School Wrestling</h2>
                             </div>
-                            <div class="flex w-full flex-col space-y-4">
+                            <div class="flex w-full flex-col space-y-4 ">
                               <h2 id="accordion-collapse-heading-14">
                                 <button
                                   type="button"
