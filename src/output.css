@@ -671,8 +671,8 @@ html {
   display: none;
 }
 
-.h-auto {
-  height: auto;
+.h-full {
+  height: 100%;
 }
 
 .h-20 {
@@ -1495,10 +1495,6 @@ html {
 
   .xl\:rounded-3xl {
     border-radius: 1.5rem;
-  }
-
-  .xl\:bg-bottom {
-    background-position: bottom;
   }
 
   .xl\:p-4 {
