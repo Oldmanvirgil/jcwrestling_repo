@@ -944,16 +944,16 @@ html {
   background-color: rgb(0 0 0 / 0.4);
 }
 
-.bg-bigBg {
-  background-image: url('/./images/background image big.jpg');
-}
-
 .bg-hallbg {
   background-image: url('/./images/Hall of fame background no title.jpg');
 }
 
 .bg-cover {
   background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
 }
 
 .bg-center {
@@ -1040,12 +1040,12 @@ html {
   padding-left: 1rem;
 }
 
-.pt-32 {
-  padding-top: 8rem;
-}
-
 .pt-5 {
   padding-top: 1.25rem;
+}
+
+.pt-32 {
+  padding-top: 8rem;
 }
 
 .pt-2 {
