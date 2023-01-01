@@ -1311,6 +1311,70 @@ html {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
+.hall-menu-button {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(228 176 52 / var(--tw-bg-opacity));
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(55 6 19 / var(--tw-text-opacity));
+  transition-duration: 300ms;
+}
+
+.hall-menu-button:hover {
+  --tw-translate-y: -0.5rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  border-radius: 0.75rem;
+  border-top-width: 4px;
+  border-bottom-width: 4px;
+  --tw-border-opacity: 1;
+  border-color: rgb(55 6 19 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 240 206 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(55 6 19 / var(--tw-text-opacity));
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  --tw-shadow-color: #2d050f;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.hall-menu-button:focus {
+  --tw-translate-y: -0.5rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  border-radius: 0.75rem;
+  border-top-width: 4px;
+  border-bottom-width: 4px;
+  --tw-border-opacity: 1;
+  border-color: rgb(55 6 19 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(228 176 52 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(55 6 19 / var(--tw-text-opacity));
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  --tw-shadow-color: #2d050f;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+@media (min-width: 1280px) {
+  .hall-menu-button {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+
 .sidebar-items {
   width: 83.333333%;
   border-radius: 0.75rem;
