@@ -1322,8 +1322,8 @@ html {
   background-color: rgb(228 176 52 / var(--tw-bg-opacity));
   padding: 0.5rem;
   text-align: center;
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
   font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(55 6 19 / var(--tw-text-opacity));
