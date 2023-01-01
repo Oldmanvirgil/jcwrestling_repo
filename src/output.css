@@ -688,10 +688,6 @@ html {
   height: 1.5rem;
 }
 
-.h-96 {
-  height: 24rem;
-}
-
 .h-fit {
   height: -moz-fit-content;
   height: fit-content;
@@ -699,6 +695,10 @@ html {
 
 .h-1\/5 {
   height: 20%;
+}
+
+.h-96 {
+  height: 24rem;
 }
 
 .w-full {
