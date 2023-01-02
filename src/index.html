@@ -1143,9 +1143,9 @@
                 class="flex w-full flex-col items-end space-y-8 rounded-2xl bg-green-400 p-1 text-base font-bold capitalize text-bordeaux-800 duration-300 xl:p-6 xl:px-10 xl:text-3xl"
               >
                 <div
-                  class="space-y-4  text-right text-white xl:py-4 xl:px-6 xl:text-3xl"
+                  class="space-y-4 text-right text-white xl:py-4 xl:px-6 xl:text-3xl"
                 >
-                  <h2 id="hall_fame" class=" px-2 pb-8">
+                  <h2 id="hall_fame" class="px-2 pb-8">
                     Junction city wrestling hall of fame
                   </h2>
                 </div>
@@ -1468,7 +1468,7 @@
                         type="button"
                         class="hall-menu-button"
                         data-accordion-target="#accordion-collapse-multiX-StatePlacers"
-                        aria-expanded="true"
+                        aria-expanded="false"
                         aria-controls="accordion-collapse-multiX-StatePlacers"
                       >
                         <span class="mx-auto w-full"
@@ -1496,51 +1496,50 @@
                   class="hidden"
                   aria-labelledby="accordion-collapse-heading-2"
                 >
+                  <div
+                    id="multiX-StatePlacers"
+                    class="mx-auto flex h-screen w-full flex-col items-start overflow-y-scroll rounded-2xl bg-hallbg"
+                  >
+                    <img
+                      src="./images/hall of fame background copy 2.png"
+                      alt=""
+                      class="sticky top-0 z-40 mx-auto flex w-screen rounded-xl"
+                    />
+
                     <div
-                      id="multiX-StatePlacers"
-                      class="mx-auto w-full flex h-screen flex-col items-start overflow-y-scroll rounded-2xl bg-hallbg"
+                      class="z-10 mx-auto flex w-full flex-row text-sm font-bold text-white xl:text-2xl"
                     >
-                      <img
-                        src="./images/hall of fame background copy 2.png"
-                        alt=""
-                        class="sticky top-0 z-40 mx-auto flex w-screen rounded-xl"
-                      />
+                      <div class="">
+                        <img
+                          src="./images/state Placers.png"
+                          alt=""
+                          class="sticky top-36 flex h-96 xl:h-3/4"
+                        />
+                      </div>
 
-                      <div
-                        class="z-10 mx-auto flex w-full flex-row text-sm font-bold text-white xl:text-2xl"
-                      >
-                        <div class="">
-                          <img
-                            src="./images/state Placers.png"
-                            alt=""
-                            class="sticky top-36 flex h-96 xl:h-3/4"
-                          />
-                        </div>
-
-                        <div class="mx-auto w-full rounded-xl">
+                      <div class="mx-auto w-full rounded-xl">
+                        <div
+                          class="sticky top-10 z-20 mx-auto w-full rounded-xl xl:top-36"
+                        >
                           <div
-                            class="sticky top-10 z-20 mx-auto w-full rounded-xl xl:top-36"
+                            class="hidden xl:mx-auto xl:flex xl:w-full xl:flex-col xl:space-y-10"
                           >
-                            <div
-                              class="hidden xl:mx-auto xl:flex xl:w-full xl:flex-col xl:space-y-10"
+                            <iframe
+                              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjxNOFUmASb1Kyk-pPdM2OPr568ANq5GjnMBN8Chafzdg_9e1SUGMMGm8NOftQSEptbXOtRN0IxDkQ/pubhtml?gid=400520444&amp;single=true&amp;widget=true&amp;headers=false"
+                              class="h-screen"
+                            ></iframe>
+                          </div>
+                          <div class="flex flex-col xl:hidden">
+                            <iframe
+                              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjxNOFUmASb1Kyk-pPdM2OPr568ANq5GjnMBN8Chafzdg_9e1SUGMMGm8NOftQSEptbXOtRN0IxDkQ/pubhtml?gid=1472197766&amp;single=true&amp;widget=true&amp;headers=false"
+                              class="h-screen"
                             >
-                              <iframe
-                                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjxNOFUmASb1Kyk-pPdM2OPr568ANq5GjnMBN8Chafzdg_9e1SUGMMGm8NOftQSEptbXOtRN0IxDkQ/pubhtml?gid=400520444&amp;single=true&amp;widget=true&amp;headers=false"
-                                class="h-screen"
-                              ></iframe>
-                            </div>
-                            <div class="flex flex-col xl:hidden ">
-                              <iframe
-                                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjxNOFUmASb1Kyk-pPdM2OPr568ANq5GjnMBN8Chafzdg_9e1SUGMMGm8NOftQSEptbXOtRN0IxDkQ/pubhtml?gid=1472197766&amp;single=true&amp;widget=true&amp;headers=false"
-                                class="h-screen"
-                              >
-                              </iframe>
-                            </div>
+                            </iframe>
                           </div>
                         </div>
                       </div>
                     </div>
-                 
+                  </div>
                 </div>
 
                 <!-- State Placers -->
@@ -1571,64 +1570,48 @@
                       </button>
                     </h2>
                   </a>
+                </div>
+                <div
+                  id="accordion-collapse-statePlacers"
+                  class="hidden"
+                  aria-labelledby="accordion-collapse-heading-2"
+                >
                   <div
-                    id="accordion-collapse-statePlacers"
-                    class="hidden"
-                    aria-labelledby="accordion-collapse-heading-2"
+                    id="statePlacers"
+                    class="x-auto flex h-screen w-full flex-col items-start overflow-y-scroll rounded-2xl bg-hallbg"
                   >
+                    <img
+                      src="./images/hall of fame background copy 2.png"
+                      alt=""
+                      class="sticky top-0 z-40 mx-auto flex w-screen rounded-xl"
+                    />
+
                     <div
-                      class="relative w-full items-start rounded-2xl bg-saffron-200/80  duration-300"
+                      class="z-10 mx-auto flex w-full flex-row text-sm font-bold text-white xl:text-2xl"
                     >
-                      <div
-                        id="statePlacers"
-                        class="text-m flex w-full rounded-2xl bg-saffron-200/80 p-1 duration-300 xl: xl:text-xl"
-                      >
-                        <div
-                          class="flex w-full text-center text-xl font-bold text-bordeaux-800"
-                        >
+                      <div class="">
+                        <img
+                          src="./images/state Placers.png"
+                          alt=""
+                          class="sticky top-36 flex h-96 flex-col xl:h-3/4"
+                        />
+                      </div>
+
+                      <div class="mx-auto w-full rounded-xl">
+                        <div class="sticky top-10 z-20 rounded-xl xl:top-36">
                           <div
-                            class="sticky w-full top-0 mx-auto flex h-screen flex-col items-start overflow-hidden rounded-2xl bg-hallbg"
+                            class="hidden xl:mx-auto xl:flex xl:w-full xl:flex-col xl:space-y-10"
                           >
-                            <img
-                              src="./images/hall of fame background copy 2.png"
-                              alt=""
-                              class="sticky top-0 z-40 mx-auto w-full flex flex-col rounded-xl"
-                            />
-
-                            <div
-                              class="z-10 mx-auto flex flex-row text-sm font-bold text-white xl:space-x-10 xl:text-2xl"
-                            >
-                              <img
-                                src="./images/state Placers.png"
-                                alt=""
-                                class="sticky top-36 flex h-96 flex-col xl:h-3/4"
-                              />
-
-                              <div
-                                class="flex w-full flex-row rounded-xl bg-black/60"
-                              >
-                                <div
-                                  class="sticky top-10 z-20 rounded-xl xl:top-36"
-                                >
-                                  <div
-                                    class="hidden xl:flex xl:flex-col xl:space-y-10"
-                                  >
-                                    <iframe
-                                      src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjxNOFUmASb1Kyk-pPdM2OPr568ANq5GjnMBN8Chafzdg_9e1SUGMMGm8NOftQSEptbXOtRN0IxDkQ/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"
-                                      class="h-screen w-screen"
-                                    ></iframe>
-                                  </div>
-                                  <div
-                                    class="flex flex-col xl:hidden xl:space-y-10"
-                                  >
-                                    <iframe
-                                      src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjxNOFUmASb1Kyk-pPdM2OPr568ANq5GjnMBN8Chafzdg_9e1SUGMMGm8NOftQSEptbXOtRN0IxDkQ/pubhtml?gid=861898335&amp;single=true&amp;widget=true&amp;headers=false"
-                                      class="h-screen"
-                                    ></iframe>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
+                            <iframe
+                              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjxNOFUmASb1Kyk-pPdM2OPr568ANq5GjnMBN8Chafzdg_9e1SUGMMGm8NOftQSEptbXOtRN0IxDkQ/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"
+                              class="h-screen"
+                            ></iframe>
+                          </div>
+                          <div class="flex flex-col xl:hidden">
+                            <iframe
+                              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjxNOFUmASb1Kyk-pPdM2OPr568ANq5GjnMBN8Chafzdg_9e1SUGMMGm8NOftQSEptbXOtRN0IxDkQ/pubhtml?gid=861898335&amp;single=true&amp;widget=true&amp;headers=false"
+                              class="h-screen"
+                            ></iframe>
                           </div>
                         </div>
                       </div>
@@ -1666,66 +1649,50 @@
                       </button>
                     </h2>
                   </a>
+                </div>
+                <div
+                  id="accordion-collapse-regDistChampions"
+                  class="hidden"
+                  aria-labelledby="accordion-collapse-heading-2"
+                >
                   <div
-                    id="accordion-collapse-regDistChampions"
-                    class="hidden"
-                    aria-labelledby="accordion-collapse-heading-2"
+                    id="statePlacers"
+                    class="x-auto flex h-screen w-full flex-col items-start overflow-y-scroll rounded-2xl bg-hallbg"
                   >
+                    <img
+                      src="./images/hall of fame background copy 2.png"
+                      alt=""
+                      class="sticky top-0 z-40 mx-auto flex w-screen rounded-xl"
+                    />
+
                     <div
-                      class="relative items-start justify-around rounded-2xl bg-saffron-200/80 p-1 duration-300"
+                      class="z-10 mx-auto flex w-full flex-row text-sm font-bold text-white xl:text-2xl"
                     >
-                      <div
-                        id="statePlacers"
-                        class="text-m rounded-2xl bg-saffron-200/80 p-1 duration-300 xl:p-4 xl:text-xl"
-                      >
-                        <div
-                          class="flex w-full text-center text-xl font-bold text-bordeaux-800"
-                        >
+                      <div class="">
+                        <img
+                          src="./images/reg champs.png"
+                          alt=""
+                          class="sticky top-36 flex h-96 flex-col xl:h-3/4"
+                        />
+                      </div>
+
+                      <div class="mx-auto w-full rounded-xl">
+                        <div class="sticky top-10 z-20 rounded-xl xl:top-36">
                           <div
-                            class="sticky top-0 mx-auto flex h-screen flex-col items-start overflow-hidden rounded-2xl bg-hallbg"
+                            class="hidden xl:mx-auto xl:flex xl:w-full xl:flex-col xl:space-y-10"
                           >
-                            <img
-                              src="./images/hall of fame background copy 2.png"
-                              alt=""
-                              class="sticky top-0 z-40 mx-auto flex flex-col rounded-xl"
-                            />
-
-                            <div
-                              class="z-10 mx-auto flex flex-row text-sm font-bold text-white xl:space-x-10 xl:text-2xl"
+                            <iframe
+                              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjxNOFUmASb1Kyk-pPdM2OPr568ANq5GjnMBN8Chafzdg_9e1SUGMMGm8NOftQSEptbXOtRN0IxDkQ/pubhtml?gid=1894606555&amp;single=true&amp;widget=true&amp;headers=false"
+                              class="h-screen"
                             >
-                              <img
-                                src="./images/reg champs.png"
-                                alt=""
-                                class="sticky top-36 flex h-96 flex-col xl:h-3/4"
-                              />
-
-                              <div
-                                class="flex w-full flex-row rounded-xl bg-black/60"
-                              >
-                                <div
-                                  class="sticky top-10 z-20 rounded-xl xl:top-36"
-                                >
-                                  <div
-                                    class="hidden xl:flex xl:flex-col xl:space-y-10"
-                                  >
-                                    <iframe
-                                      src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjxNOFUmASb1Kyk-pPdM2OPr568ANq5GjnMBN8Chafzdg_9e1SUGMMGm8NOftQSEptbXOtRN0IxDkQ/pubhtml?gid=1894606555&amp;single=true&amp;widget=true&amp;headers=false"
-                                      class="h-screen w-screen"
-                                    >
-                                    </iframe>
-                                  </div>
-                                  <div
-                                    class="flex flex-col xl:hidden xl:space-y-10"
-                                  >
-                                    <iframe
-                                      src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjxNOFUmASb1Kyk-pPdM2OPr568ANq5GjnMBN8Chafzdg_9e1SUGMMGm8NOftQSEptbXOtRN0IxDkQ/pubhtml?gid=1249200885&amp;single=true&amp;widget=true&amp;headers=false"
-                                      class="h-screen"
-                                    >
-                                    </iframe>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
+                            </iframe>
+                          </div>
+                          <div class="flex flex-col xl:hidden">
+                            <iframe
+                              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjxNOFUmASb1Kyk-pPdM2OPr568ANq5GjnMBN8Chafzdg_9e1SUGMMGm8NOftQSEptbXOtRN0IxDkQ/pubhtml?gid=1249200885&amp;single=true&amp;widget=true&amp;headers=false"
+                              class="h-screen"
+                            >
+                            </iframe>
                           </div>
                         </div>
                       </div>
@@ -1763,71 +1730,56 @@
                       </button>
                     </h2>
                   </a>
+                </div>
+                <div
+                  id="accordion-collapse-careerStats"
+                  class="hidden"
+                  aria-labelledby="accordion-collapse-heading-2"
+                >
                   <div
-                    id="accordion-collapse-careerStats"
-                    class="hidden"
-                    aria-labelledby="accordion-collapse-heading-2"
+                    id="careerStats"
+                    class="x-auto flex h-screen w-full flex-col items-start overflow-y-scroll rounded-2xl bg-hallbg"
                   >
+                    <img
+                      src="./images/hall of fame background copy 2.png"
+                      alt=""
+                      class="sticky top-0 z-40 mx-auto flex w-screen rounded-xl"
+                    />
+
                     <div
-                      class="relative items-start rounded-2xl bg-saffron-200/80 p-1 duration-300"
+                      class="z-10 mx-auto flex w-full flex-row text-sm font-bold text-white xl:text-2xl"
                     >
-                      <div
-                        id="careerStats"
-                        class="text-m rounded-2xl bg-saffron-200/80 p-1 duration-300 xl:p-4 xl:text-xl"
-                      >
-                        <div
-                          class="flex w-full text-center text-xl font-bold text-bordeaux-800"
-                        >
+                      <div class="">
+                        <img
+                          src="./images/caree records.png"
+                          alt=""
+                          class="sticky top-36 flex h-96 flex-col xl:h-3/4"
+                        />
+                      </div>
+
+                      <div class="mx-auto w-full rounded-xl">
+                        <div class="sticky top-10 z-20 rounded-xl xl:top-36">
                           <div
-                            class="sticky top-0 mx-auto flex h-screen flex-col items-start overflow-hidden rounded-2xl bg-hallbg"
+                            class="hidden xl:mx-auto xl:flex xl:w-full xl:flex-col xl:space-y-10"
                           >
-                            <img
-                              src="./images/hall of fame background copy 2.png"
-                              alt=""
-                              class="sticky top-0 z-40 mx-auto flex flex-col rounded-xl"
-                            />
-
-                            <div
-                              class="z-10 mx-auto flex flex-row text-sm font-bold text-white xl:space-x-10 xl:text-2xl"
+                            <iframe
+                              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjxNOFUmASb1Kyk-pPdM2OPr568ANq5GjnMBN8Chafzdg_9e1SUGMMGm8NOftQSEptbXOtRN0IxDkQ/pubhtml?gid=554408599&amp;single=true&amp;widget=true&amp;headers=false"
+                              class="h-screen"
+                            ></iframe>
+                          </div>
+                          <div class="flex flex-col xl:hidden">
+                            <iframe
+                              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjxNOFUmASb1Kyk-pPdM2OPr568ANq5GjnMBN8Chafzdg_9e1SUGMMGm8NOftQSEptbXOtRN0IxDkQ/pubhtml?gid=1604716296&amp;single=true&amp;widget=true&amp;headers=false"
+                              class="h-screen"
                             >
-                              <img
-                                src="./images/caree records.png"
-                                alt=""
-                                class="sticky top-36 flex h-96 flex-col xl:h-3/4"
-                              />
-
-                              <div
-                                class="flex w-full flex-row rounded-xl bg-black/60"
-                              >
-                                <div
-                                  class="sticky top-10 z-20 rounded-xl xl:top-36"
-                                >
-                                  <div
-                                    class="hidden xl:flex xl:flex-col xl:space-y-10"
-                                  >
-                                    <iframe
-                                      src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjxNOFUmASb1Kyk-pPdM2OPr568ANq5GjnMBN8Chafzdg_9e1SUGMMGm8NOftQSEptbXOtRN0IxDkQ/pubhtml?gid=554408599&amp;single=true&amp;widget=true&amp;headers=false"
-                                      class="h-screen w-screen"
-                                    ></iframe>
-                                  </div>
-                                  <div
-                                    class="flex flex-col xl:hidden xl:space-y-10"
-                                  >
-                                    <iframe
-                                      src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjxNOFUmASb1Kyk-pPdM2OPr568ANq5GjnMBN8Chafzdg_9e1SUGMMGm8NOftQSEptbXOtRN0IxDkQ/pubhtml?gid=1604716296&amp;single=true&amp;widget=true&amp;headers=false"
-                                      class="h-screen"
-                                    >
-                                    </iframe>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
+                            </iframe>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
+
                 <!-- Single Season Statistical Record Book -->
                 <div class="class= w-2/5">
                   <a href="#singleSeasonStats">
@@ -1858,66 +1810,53 @@
                       </button>
                     </h2>
                   </a>
-                  <div
-                    id="accordion-collapse-singleSeasonStats"
-                    class="hidden"
-                    aria-labelledby="accordion-collapse-heading-2"
+                </div>
+                <div
+                  id="accordion-collapse-singleSeasonStats"
+                  class="hidden"
+                  aria-labelledby="accordion-collapse-heading-2"
+                >
                   >
+                  <div
+                    id="singleSeasonStats"
+                    class="mx-auto flex h-screen w-full flex-col items-start overflow-y-scroll rounded-2xl bg-hallbg"
+                  >
+                    <img
+                      src="./images/hall of fame background copy 2.png"
+                      alt=""
+                      class="sticky top-0 z-40 mx-auto flex w-screen rounded-xl"
+                    />
+
                     <div
-                      class="relative items-start rounded-2xl bg-saffron-200/80 p-1 duration-300"
+                      class="z-10 mx-auto flex w-full flex-row text-sm font-bold text-white xl:text-2xl"
                     >
-                      <div
-                        id="singleSeasonStats"
-                        class="text-m rounded-2xl bg-saffron-200/80 p-1 duration-300 xl:p-4 xl:text-xl"
-                      >
+                      <div class="">
+                        <img
+                          src="./images/single season.png"
+                          alt=""
+                          class="sticky top-36 flex h-96 xl:h-3/4"
+                        />
+                      </div>
+
+                      <div class="mx-auto w-full rounded-xl">
                         <div
-                          class="flex w-full text-center text-xl font-bold text-bordeaux-800"
+                          class="sticky top-10 z-20 mx-auto w-full rounded-xl xl:top-36"
                         >
                           <div
-                            class="sticky top-0 mx-auto flex h-screen flex-col items-start overflow-hidden rounded-2xl bg-hallbg"
+                            class="hidden xl:mx-auto xl:flex xl:w-full xl:flex-col xl:space-y-10"
                           >
-                            <img
-                              src="./images/hall of fame background copy 2.png"
-                              alt=""
-                              class="sticky top-0 z-40 mx-auto flex flex-col rounded-xl"
-                            />
-
-                            <div
-                              class="z-10 mx-auto flex flex-row text-sm font-bold text-white xl:space-x-10 xl:text-2xl"
+                            <iframe
+                              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjxNOFUmASb1Kyk-pPdM2OPr568ANq5GjnMBN8Chafzdg_9e1SUGMMGm8NOftQSEptbXOtRN0IxDkQ/pubhtml?gid=442405099&amp;single=true&amp;widget=true&amp;headers=false"
+                              class="h-screen"
                             >
-                              <img
-                                src="./images/single season.png"
-                                alt=""
-                                class="sticky top-36 flex h-96 flex-col xl:h-3/4"
-                              />
+                            </iframe>
+                          </div>
 
-                              <div
-                                class="flex w-full flex-row rounded-xl bg-black/60"
-                              >
-                                <div
-                                  class="sticky top-10 z-20 rounded-xl xl:top-36"
-                                >
-                                  <div
-                                    class="hidden xl:flex xl:flex-col xl:space-y-10"
-                                  >
-                                    <iframe
-                                      src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjxNOFUmASb1Kyk-pPdM2OPr568ANq5GjnMBN8Chafzdg_9e1SUGMMGm8NOftQSEptbXOtRN0IxDkQ/pubhtml?gid=442405099&amp;single=true&amp;widget=true&amp;headers=false"
-                                      class="h-screen w-screen"
-                                    >
-                                    </iframe>
-                                  </div>
-
-                                  <div
-                                    class="flex flex-col xl:hidden xl:space-y-10"
-                                  >
-                                    <iframe
-                                      src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjxNOFUmASb1Kyk-pPdM2OPr568ANq5GjnMBN8Chafzdg_9e1SUGMMGm8NOftQSEptbXOtRN0IxDkQ/pubhtml?gid=1611290761&amp;single=true&amp;widget=true&amp;headers=false"
-                                      class="h-screen"
-                                    ></iframe>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
+                          <div class="flex flex-col xl:hidden">
+                            <iframe
+                              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjxNOFUmASb1Kyk-pPdM2OPr568ANq5GjnMBN8Chafzdg_9e1SUGMMGm8NOftQSEptbXOtRN0IxDkQ/pubhtml?gid=1611290761&amp;single=true&amp;widget=true&amp;headers=false"
+                              class="h-screen"
+                            ></iframe>
                           </div>
                         </div>
                       </div>
@@ -1953,64 +1892,50 @@
                       </button>
                     </h2>
                   </a>
+                </div>
+                <div
+                  id="accordion-collapse-teamResults"
+                  class="hidden"
+                  aria-labelledby="accordion-collapse-heading-2"
+                >
                   <div
-                    id="accordion-collapse-teamResults"
-                    class="hidden"
-                    aria-labelledby="accordion-collapse-heading-2"
+                    id="teamResults"
+                    class="mx-auto flex h-screen w-full flex-col items-start overflow-y-scroll rounded-2xl bg-hallbg"
                   >
+                    <img
+                      src="./images/hall of fame background copy 2.png"
+                      alt=""
+                      class="sticky top-0 z-40 mx-auto flex w-screen rounded-xl"
+                    />
+
                     <div
-                      class="relative items-start rounded-2xl bg-saffron-200/80 p-1 duration-300"
+                      class="z-10 mx-auto flex w-full flex-row text-sm font-bold text-white xl:text-2xl"
                     >
-                      <div
-                        id="teamResults"
-                        class="text-m rounded-2xl bg-saffron-200/80 p-1 duration-300 xl:p-4 xl:text-xl"
-                      >
+                      <div class="">
+                        <img
+                          src="./images/team records.png"
+                          alt=""
+                          class="sticky top-36 flex h-96 xl:h-3/4"
+                        />
+                      </div>
+
+                      <div class="mx-auto w-full rounded-xl">
                         <div
-                          class="flex w-full text-center text-xl font-bold text-bordeaux-800"
+                          class="sticky top-10 z-20 mx-auto w-full rounded-xl xl:top-36"
                         >
                           <div
-                            class="sticky top-0 mx-auto flex h-screen flex-col items-start overflow-hidden rounded-2xl bg-hallbg"
+                            class="hidden xl:mx-auto xl:flex xl:w-full xl:flex-col xl:space-y-10"
                           >
-                            <img
-                              src="./images/hall of fame background copy 2.png"
-                              alt=""
-                              class="sticky top-0 z-40 mx-auto flex flex-col rounded-xl"
-                            />
-
-                            <div
-                              class="z-10 mx-auto flex flex-row text-sm font-bold text-white xl:space-x-10 xl:text-2xl"
-                            >
-                              <img
-                                src="./images/team records.png"
-                                alt=""
-                                class="sticky top-36 flex h-96 flex-col xl:h-3/4"
-                              />
-
-                              <div
-                                class="flex w-full flex-row rounded-xl bg-black/60"
-                              >
-                                <div
-                                  class="sticky top-10 z-20 rounded-xl xl:top-36"
-                                >
-                                  <div
-                                    class="hidden xl:flex xl:flex-col xl:space-y-10"
-                                  >
-                                    <iframe
-                                      src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjxNOFUmASb1Kyk-pPdM2OPr568ANq5GjnMBN8Chafzdg_9e1SUGMMGm8NOftQSEptbXOtRN0IxDkQ/pubhtml?gid=608307842&amp;single=true&amp;widget=true&amp;headers=false"
-                                      class="h-screen w-screen"
-                                    ></iframe>
-                                  </div>
-                                  <div
-                                    class="flex flex-col xl:hidden xl:space-y-10"
-                                  >
-                                    <iframe
-                                      src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjxNOFUmASb1Kyk-pPdM2OPr568ANq5GjnMBN8Chafzdg_9e1SUGMMGm8NOftQSEptbXOtRN0IxDkQ/pubhtml?gid=1662320244&amp;single=true&amp;widget=true&amp;headers=false"
-                                      class="h-screen"
-                                    ></iframe>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
+                            <iframe
+                              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjxNOFUmASb1Kyk-pPdM2OPr568ANq5GjnMBN8Chafzdg_9e1SUGMMGm8NOftQSEptbXOtRN0IxDkQ/pubhtml?gid=608307842&amp;single=true&amp;widget=true&amp;headers=false"
+                              class="h-screen"
+                            ></iframe>
+                          </div>
+                          <div class="flex flex-col xl:hidden">
+                            <iframe
+                              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjxNOFUmASb1Kyk-pPdM2OPr568ANq5GjnMBN8Chafzdg_9e1SUGMMGm8NOftQSEptbXOtRN0IxDkQ/pubhtml?gid=1662320244&amp;single=true&amp;widget=true&amp;headers=false"
+                              class="h-screen"
+                            ></iframe>
                           </div>
                         </div>
                       </div>
@@ -2026,7 +1951,7 @@
                         type="button"
                         class="hall-menu-button"
                         data-accordion-target="#accordion-collapse-photoGallary"
-                        aria-expanded="false"
+                        aria-expanded="true"
                         aria-controls="accordion-collapse-photoGallary"
                       >
                         <span class="mx-auto w-full">Photo Gallary</span>
@@ -2046,36 +1971,26 @@
                       </button>
                     </h2>
                   </a>
+                </div>
+                <div
+                  id="accordion-collapse-photoGallary"
+                  class="hidden"
+                  aria-labelledby="accordion-collapse-heading-2"
+                >
                   <div
-                    id="accordion-collapse-photoGallary"
-                    class="hidden"
-                    aria-labelledby="accordion-collapse-heading-2"
+                    id="photoGallary"
+                    class="mx-auto flex h-screen w-full flex-col items-start overflow-y-scroll rounded-2xl bg-hallbg"
                   >
-                    <div class="program-dropdown">
-                      <div
-                        id="photoGallary"
-                        class="text-m flex w-full flex-col rounded-2xl bg-saffron-200/80 p-4 duration-300 xl:p-6 xl:text-xl"
-                      >
-                        <div
-                          class="text-center text-xl font-bold text-bordeaux-800"
-                        >
-                          <div
-                            class="relative mx-auto flex h-screen flex-col items-start overflow-hidden rounded-2xl bg-hallbg bg-center"
-                          >
-                            <img
-                              src="./images/hall of fame background copy 2.png"
-                              alt=""
-                              class="sticky top-0 z-40 mx-auto w-full snap-y rounded-xl"
-                            />
-                            <div
-                              class="z-10 mx-auto flex w-full flex-row justify-center text-sm font-bold text-white xl:text-2xl"
-                            >
-                              COMING SOON
-                              <img src="" alt="" class="sticky top-40 h-1/5" />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                    <img
+                      src="./images/hall of fame background copy 2.png"
+                      alt=""
+                      class="sticky top-0 z-40 mx-auto flex w-screen rounded-xl"
+                    />
+                    <div
+                      class="z-10 mx-auto flex w-full flex-row text-sm font-bold text-white xl:text-2xl"
+                    >
+                      COMING SOON
+                      <img src="" alt="" class="sticky top-40 h-1/5" />
                     </div>
                   </div>
                 </div>
