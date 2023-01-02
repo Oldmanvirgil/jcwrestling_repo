@@ -25,18 +25,22 @@
     <!-- header & Hero section -->
     <div
       id="top"
-      class="relative m-0 w-full flex-col items-center justify-center bg-black"
+      class="relative m-0 w-full flex-col items-center bg-transparent  -z-40 justify-center"
     >
 
     
-      <div class="top-0 m-0 flex h-72 flex-col bg-tigerBg items-center justify-start xl:h-screen">
-        <div class="w-full">
-          <video class="fixed w-full max-w-full h-auto  " autoplay loop muted>
+      <div class="top-0 m-0 xl:flex h-72 flex-col bg-tigerBg bg-cover items-start justify-start xl:h-screen">
+        <div class="xl:hidden fixed flex w-full bg-red p-10  ">
+
+        
+        <div class="hidden xl:flex w-full">
+          <video class="xl:fixed xl:w-full xl:max-w-full xl:h-auto  " autoplay loop muted>
             <source src="./images/hero _background_final_2.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
-          
         </div>
+      </div>
+        
         <header
           class="flex w-full items-center justify-center text-lg font-bold"
         >
