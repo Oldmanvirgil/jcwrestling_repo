@@ -671,9 +671,8 @@ html {
   display: none;
 }
 
-.h-max {
-  height: -moz-max-content;
-  height: max-content;
+.h-64 {
+  height: 16rem;
 }
 
 .h-20 {
@@ -950,6 +949,10 @@ html {
 
 .bg-bordeaux-800\/50 {
   background-color: rgb(55 6 19 / 0.5);
+}
+
+.bg-heroBgVid {
+  background-image: url('/./images/src/images/hero _background_final_2.mp4');
 }
 
 .bg-bigBg {
