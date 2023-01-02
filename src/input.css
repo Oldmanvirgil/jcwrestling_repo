@@ -17,10 +17,7 @@
 .hall-menu-button {
   @apply flex w-full  flex-row items-end rounded-xl  bg-saffron-600 p-0 px-2 xl:p-2 text-center text-sm font-bold text-bordeaux-800 duration-300 hover:-translate-y-2 hover:rounded-xl hover:border-y-4 hover:border-bordeaux-800 hover:bg-saffron-200 hover:text-bordeaux-800 hover:shadow-lg hover:shadow-bordeaux-900 focus:-translate-y-2 focus:rounded-xl focus:border-y-4 focus:border-bordeaux-800 focus:bg-saffron-600 focus:text-bordeaux-800 focus:shadow-lg focus:shadow-bordeaux-900 xl:text-xl;
 }
-.welcome_vid {
-  @apply display: block mx-auto w-screen h-auto;
 
-}
 
 .sidebar-items {
   @apply w-5/6 rounded-xl px-4 py-4 text-left capitalize duration-300 hover:translate-x-5 hover:scale-110 hover:bg-saffron-600 hover:text-bordeaux-800;
