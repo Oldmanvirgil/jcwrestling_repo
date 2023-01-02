@@ -728,16 +728,16 @@ html {
   width: 40%;
 }
 
+.w-4\/12 {
+  width: 33.333333%;
+}
+
 .w-6\/12 {
   width: 50%;
 }
 
 .w-3\/12 {
   width: 25%;
-}
-
-.w-4\/12 {
-  width: 33.333333%;
 }
 
 .w-96 {
@@ -946,11 +946,6 @@ html {
 
 .bg-bordeaux-800\/50 {
   background-color: rgb(55 6 19 / 0.5);
-}
-
-.bg-green-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
 }
 
 .bg-black\/40 {
