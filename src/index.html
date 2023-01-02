@@ -25,22 +25,28 @@
     <!-- header & Hero section -->
     <div
       id="top"
-      class="relative m-0 w-full flex-col items-center bg-transparent  -z-40 justify-center"
+      class="relative -z-40 m-0 w-full flex-col items-center justify-center bg-transparent"
     >
+      <div
+        class="top-0 m-0 h-72 flex-col items-start justify-start bg-cover xl:flex xl:h-screen"
+      >
+        <div class="bg-red fixed flex w-full p-10 xl:hidden"></div>
 
-    
-      <div class="top-0 m-0 xl:flex h-72 flex-col  bg-cover items-start justify-start xl:h-screen">
-        <div class="xl:hidden fixed flex w-full bg-red p-10"></div>
-
-        
-        <div class="hidden xl:flex w-full">
-          <video class="xl:fixed xl:w-full xl:max-w-full xl:h-auto  " autoplay loop muted>
-            <source src="./images/hero _background_final_2.mp4" type="video/mp4">
+        <div class="hidden w-full xl:flex">
+          <video
+            class="xl:fixed xl:h-auto xl:w-full xl:max-w-full"
+            autoplay
+            loop
+            muted
+          >
+            <source
+              src="./images/hero _background_final_2.mp4"
+              type="video/mp4"
+            />
             Your browser does not support the video tag.
           </video>
         </div>
-      
-        
+
         <header
           class="flex w-full items-center justify-center text-lg font-bold"
         >
@@ -48,18 +54,18 @@
             <!-- header section -->
             <div class="flex h-64 xl:h-screen xl:items-center xl:px-20">
               <div
-                class="   flex flex-col xl:sticky xl:top-20 xl:flex-row xl:items-start xl:justify-start"
+                class="flex flex-col xl:sticky xl:top-20 xl:flex-row xl:items-start xl:justify-start"
               >
                 <!-- logo & mission container -->
                 <div
-                  class=" flex backdrop-blur-none xl:mb-20 xl:rounded-3xl xl:shadow-2xl xl:shadow-black"
+                  class="flex backdrop-blur-none xl:mb-20 xl:rounded-3xl xl:shadow-2xl xl:shadow-black"
                 >
                   <div class="flex xl:flex-row">
                     <div class="z-10 w-1/2 p-6 xl:w-auto">
                       <img
                         src="./images/17TIGERWRESTLING.jpg"
                         alt=""
-                        class=" rounded-2xl xl:mx-auto xl:w-auto"
+                        class="rounded-2xl xl:mx-auto xl:w-auto"
                       />
                     </div>
                     <div
@@ -851,10 +857,10 @@
               <!-- small -->
               <div
                 id="jchs"
-                class="bg-bgBig flex w-full  bg-cover bg-repeat-y xl:hidden"
+                class="bg-bgBig flex w-full bg-cover bg-repeat-y xl:hidden"
               >
                 <div
-                  class="flex w-full flex-col  space-y-2 rounded-3xl p-1 xl:hidden"
+                  class="flex w-full flex-col space-y-2 rounded-3xl p-1 xl:hidden"
                 >
                   <div
                     id="accordion-collapse"
@@ -987,16 +993,16 @@
               <div
                 id="accordion-collapse"
                 data-accordion="collapse"
-                class="rounded-2xltext-base  flex w-full flex-col items-end space-y-8 font-bold capitalize text-bordeaux-800 duration-300 xl:p-6 xl:px-10 xl:text-3xl"
+                class="rounded-2xltext-base flex w-full flex-col items-end space-y-8 font-bold capitalize text-bordeaux-800 duration-300 xl:p-6 xl:px-10 xl:text-3xl"
               >
                 <div
-                  class="space-y-4  text-right pr-4 text-white xl:py-4 xl:px-6 xl:text-3xl"
+                  class="space-y-4 pr-4 text-right text-white xl:py-4 xl:px-6 xl:text-3xl"
                 >
-                  <h2 id="hall_fame" class=" pb-8 ">
+                  <h2 id="hall_fame" class="pb-8">
                     Junction city wrestling hall of fame
                   </h2>
                 </div>
-                <div class="class= pr-4 w-6/12 xl:w-4/12">
+                <div class="class= w-6/12 pr-4 xl:w-4/12">
                   <a href="#stateChampions">
                     <h2 id="accordion-collapse-heading-2">
                       <button
@@ -1006,7 +1012,7 @@
                         aria-expanded="false"
                         aria-controls="accordion-collapse-body-2"
                       >
-                        <span class="mx-auto w-full text-small xl:text-base"
+                        <span class="text-small mx-auto w-full xl:text-base"
                           >State Champions</span
                         >
                         <svg
@@ -1310,7 +1316,7 @@
                   </div>
                 </div>
                 <!-- Multi X State Placers -->
-                <div class="class= pr-4 w-6/12 xl:w-4/12">
+                <div class="class= w-6/12 pr-4 xl:w-4/12">
                   <a href="#multiX-StatePlacers">
                     <h2 id="accordion-collapse-heading-2">
                       <button
@@ -1320,7 +1326,7 @@
                         aria-expanded="false"
                         aria-controls="accordion-collapse-multiX-StatePlacers"
                       >
-                        <span class="mx-auto w-full text-small xl:text-base"
+                        <span class="text-small mx-auto w-full xl:text-base"
                           >Multi X State Placers</span
                         >
                         <svg
@@ -1392,7 +1398,7 @@
                 </div>
 
                 <!-- State Placers -->
-                <div class="class= pr-4 w-6/12 xl:w-4/12">
+                <div class="class= w-6/12 pr-4 xl:w-4/12">
                   <a href="#statePlacers">
                     <h2 id="accordion-collapse-heading-2">
                       <button
@@ -1402,7 +1408,7 @@
                         aria-expanded="false"
                         aria-controls="accordion-collapse-statePlacers"
                       >
-                        <span class="mx-auto w-full text-small xl:text-base"
+                        <span class="text-small mx-auto w-full xl:text-base"
                           >State Placers</span
                         >
                         <svg
@@ -1481,7 +1487,7 @@
                         aria-expanded="false"
                         aria-controls="accordion-collapse-regDistChampions"
                       >
-                        <span class="mx-auto w-full text-small xl:text-base"
+                        <span class="text-small mx-auto w-full xl:text-base"
                           >Regional & District Champions</span
                         >
                         <svg
@@ -1552,7 +1558,7 @@
                 </div>
 
                 <!-- Career Statistical Record Book -->
-                <div class="class= pr-4 w-6/12 xl:w-4/12">
+                <div class="class= w-6/12 pr-4 xl:w-4/12">
                   <a href="#careerStats">
                     <h2 id="accordion-collapse-heading-2">
                       <button
@@ -1562,7 +1568,7 @@
                         aria-expanded="false"
                         aria-controls="accordion-collapse-careerStats"
                       >
-                        <span class="mx-auto w-full text-small xl:text-base"
+                        <span class="text-small mx-auto w-full xl:text-base"
                           >Career Statistical Record Book</span
                         >
                         <svg
@@ -1632,7 +1638,7 @@
                 </div>
 
                 <!-- Single Season Statistical Record Book -->
-                <div class="class= pr-4 w-6/12 xl:w-4/12">
+                <div class="class= w-6/12 pr-4 xl:w-4/12">
                   <a href="#singleSeasonStats">
                     <h2 id="accordion-collapse-heading-2">
                       <button
@@ -1642,7 +1648,7 @@
                         aria-expanded="false"
                         aria-controls="accordion-collapse-singleSeasonStats"
                       >
-                        <span class="mx-auto w-full text-small xl:text-base"
+                        <span class="text-small mx-auto w-full xl:text-base"
                           >Single Season Statistical Record Book</span
                         >
                         <svg
@@ -1716,7 +1722,7 @@
                 </div>
 
                 <!-- Team Results By Year -->
-                <div class="class= pr-4 w-6/12 xl:w-4/12">
+                <div class="class= w-6/12 pr-4 xl:w-4/12">
                   <a href="#teamResults">
                     <h2 id="accordion-collapse-heading-2">
                       <button
@@ -1726,7 +1732,7 @@
                         aria-expanded="false"
                         aria-controls="accordion-collapse-teamResults"
                       >
-                        <span class="mx-auto w-full text-small xl:text-base"
+                        <span class="text-small mx-auto w-full xl:text-base"
                           >Team Results By Year</span
                         >
                         <svg
@@ -1797,7 +1803,7 @@
                 </div>
 
                 <!-- Photo Gallary -->
-                <div class="class= pr-4 w-6/12 xl:w-4/12">
+                <div class="class= w-6/12 pr-4 xl:w-4/12">
                   <a href="#photoGallary">
                     <h2 id="accordion-collapse-heading-2">
                       <button
@@ -1807,7 +1813,7 @@
                         aria-expanded="false"
                         aria-controls="accordion-collapse-photoGallary"
                       >
-                        <span class="mx-auto w-full text-small xl:text-base"
+                        <span class="text-small mx-auto w-full xl:text-base"
                           >Photo Gallary</span
                         >
                         <svg
