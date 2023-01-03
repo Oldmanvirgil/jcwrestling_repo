@@ -591,12 +591,12 @@ html {
   top: 4rem;
 }
 
-.-z-40 {
-  z-index: -40;
+.-z-50 {
+  z-index: -50;
 }
 
-.z-0 {
-  z-index: 0;
+.-z-40 {
+  z-index: -40;
 }
 
 .z-40 {
@@ -625,6 +625,10 @@ html {
   margin-bottom: 0.5rem;
 }
 
+.mt-96 {
+  margin-top: 24rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -649,16 +653,16 @@ html {
   display: none;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
 .h-96 {
   height: 24rem;
 }
 
 .h-full {
   height: 100%;
-}
-
-.h-20 {
-  height: 5rem;
 }
 
 .h-6 {
@@ -788,12 +792,12 @@ html {
   overflow-y: scroll;
 }
 
-.rounded-2xl {
-  border-radius: 1rem;
-}
-
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
 }
 
 .rounded-3xl {
@@ -840,6 +844,11 @@ html {
   border-color: rgb(55 6 19 / var(--tw-border-opacity));
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-bordeaux-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(92 10 31 / var(--tw-bg-opacity));
@@ -868,29 +877,24 @@ html {
   background-color: rgb(255 240 206 / 0.8);
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
 .bg-black\/40 {
   background-color: rgb(0 0 0 / 0.4);
-}
-
-.bg-bigBg {
-  background-image: url('/./images/background image big.jpg');
 }
 
 .bg-hallbg {
   background-image: url('/./images/Hall of fame background no title.jpg');
 }
 
-.bg-cover {
-  background-size: cover;
-}
-
 .fill-current {
   fill: currentColor;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .p-10 {
@@ -903,10 +907,6 @@ html {
 
 .p-1 {
   padding: 0.25rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
 }
 
 .p-6 {
@@ -987,13 +987,13 @@ html {
   text-indent: 0.75rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
+.text-xl {
+  font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
+.text-lg {
+  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
@@ -1065,6 +1065,12 @@ html {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+.backdrop-blur-2xl {
+  --tw-backdrop-blur: blur(40px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
 .backdrop-blur-md {
   --tw-backdrop-blur: blur(12px);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
@@ -1082,6 +1088,7 @@ html {
 }
 
 .menu-button2 {
+  z-index: 10;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -1140,6 +1147,7 @@ html {
 }
 
 .menu-button {
+  z-index: 10;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -1206,6 +1214,7 @@ html {
 }
 
 .hall-menu-button {
+  z-index: 10;
   display: flex;
   width: 100%;
   flex-direction: row;
@@ -1556,6 +1565,10 @@ html {
   .xl\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+
+  .xl\:pt-4 {
+    padding-top: 1rem;
   }
 
   .xl\:pb-10 {
