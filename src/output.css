@@ -809,6 +809,11 @@ html {
   border-top-right-radius: 1.5rem;
 }
 
+.rounded-t-2xl {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
 .border-x-4 {
   border-left-width: 4px;
   border-right-width: 4px;
