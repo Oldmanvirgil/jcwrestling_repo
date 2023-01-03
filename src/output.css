@@ -943,6 +943,10 @@ html {
   padding-bottom: 0.5rem;
 }
 
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
 .pb-1 {
   padding-bottom: 0.25rem;
 }
