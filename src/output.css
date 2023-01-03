@@ -889,8 +889,8 @@ html {
   background-image: url('/./images/Hall of fame background no title.jpg');
 }
 
-.bg-cover {
-  background-size: cover;
+.bg-repeat-round {
+  background-repeat: round;
 }
 
 .fill-current {
@@ -1449,6 +1449,10 @@ html {
 
   .xl\:top-64 {
     top: 16rem;
+  }
+
+  .xl\:-z-10 {
+    z-index: -10;
   }
 
   .xl\:z-10 {
