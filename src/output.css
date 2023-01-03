@@ -635,14 +635,6 @@ html {
   margin-bottom: 0.5rem;
 }
 
-.mr-5 {
-  margin-right: 1.25rem;
-}
-
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
 .mb-7 {
   margin-bottom: 1.75rem;
 }
@@ -675,12 +667,12 @@ html {
   display: none;
 }
 
-.h-72 {
-  height: 18rem;
+.h-96 {
+  height: 24rem;
 }
 
-.h-64 {
-  height: 16rem;
+.h-full {
+  height: 100%;
 }
 
 .h-20 {
@@ -699,16 +691,8 @@ html {
   height: 20%;
 }
 
-.h-96 {
-  height: 24rem;
-}
-
 .w-full {
   width: 100%;
-}
-
-.w-1\/2 {
-  width: 50%;
 }
 
 .w-20 {
@@ -745,6 +729,10 @@ html {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-1\/2 {
+  width: 50%;
 }
 
 .w-96 {
@@ -959,10 +947,6 @@ html {
   background-color: rgb(55 6 19 / 0.5);
 }
 
-.bg-tigerBg {
-  background-image: url('/./images/src/src/images/JC Wrestling icon 2.jpg');
-}
-
 .bg-bigBg {
   background-image: url('/./images/background image big.jpg');
 }
@@ -971,12 +955,12 @@ html {
   background-image: url('/./images/Hall of fame background no title.jpg');
 }
 
-.bg-cover {
-  background-size: cover;
-}
-
 .bg-contain {
   background-size: contain;
+}
+
+.bg-cover {
+  background-size: cover;
 }
 
 .bg-repeat-y {
@@ -991,10 +975,6 @@ html {
   padding: 2.5rem;
 }
 
-.p-6 {
-  padding: 1.5rem;
-}
-
 .p-4 {
   padding: 1rem;
 }
@@ -1003,8 +983,17 @@ html {
   padding: 0.5rem;
 }
 
+.p-6 {
+  padding: 1.5rem;
+}
+
 .p-1 {
   padding: 0.25rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .py-4 {
@@ -1015,11 +1004,6 @@ html {
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-}
-
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
 }
 
 .py-5 {
@@ -1040,10 +1024,6 @@ html {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-.pt-3 {
-  padding-top: 0.75rem;
 }
 
 .pb-5 {
@@ -1149,6 +1129,11 @@ html {
   text-transform: capitalize;
 }
 
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .text-saffron-600 {
   --tw-text-opacity: 1;
   color: rgb(228 176 52 / var(--tw-text-opacity));
@@ -1159,9 +1144,8 @@ html {
   color: rgb(55 6 19 / var(--tw-text-opacity));
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+.decoration-black {
+  text-decoration-color: #000;
 }
 
 .shadow-2xl {
@@ -1181,10 +1165,9 @@ html {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
-.backdrop-blur-none {
-  --tw-backdrop-blur: blur(0);
-  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+.drop-shadow-2xl {
+  --tw-drop-shadow: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .backdrop-blur-md {
@@ -1536,6 +1519,10 @@ html {
     top: 16rem;
   }
 
+  .xl\:z-10 {
+    z-index: 10;
+  }
+
   .xl\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -1660,12 +1647,12 @@ html {
     border-radius: 1.5rem;
   }
 
-  .xl\:p-4 {
-    padding: 1rem;
-  }
-
   .xl\:p-6 {
     padding: 1.5rem;
+  }
+
+  .xl\:p-4 {
+    padding: 1rem;
   }
 
   .xl\:px-20 {
@@ -1728,6 +1715,11 @@ html {
 
   .xl\:leading-loose {
     line-height: 2;
+  }
+
+  .xl\:text-saffron-600 {
+    --tw-text-opacity: 1;
+    color: rgb(228 176 52 / var(--tw-text-opacity));
   }
 
   .xl\:shadow-2xl {

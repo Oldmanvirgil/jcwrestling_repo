@@ -25,14 +25,16 @@
     <!-- header & Hero section -->
     <div
       id="top"
-      class="relative -z-40 m-0 w-full flex-col items-center justify-center bg-tigerBg bg-cover"
+      class="relative m-0 w-full flex-col items-center justify-center"
     >
       <div
-        class="top-0 m-0 h-72 flex-col items-start justify-start bg-cover xl:flex xl:h-screen"
+        class="top-0 m-0 h-96 flex-col items-start justify-start xl:flex xl:h-screen"
       >
-        <div class="bg-red fixed flex w-full p-10 xl:hidden"></div>
+        <div class="fixed -z-40 flex w-full xl:hidden">
+          <img src="./images/JC Wrestling icon 2.jpg" alt="" class="" />
+        </div>
 
-        <div class="hidden w-full xl:flex">
+        <div class="hidden xl:flex xl:w-full">
           <video
             class="xl:fixed xl:h-auto xl:w-full xl:max-w-full"
             autoplay
@@ -47,21 +49,21 @@
           </video>
         </div>
 
-        <header
-          class="flex w-full items-center justify-center text-lg font-bold"
-        >
+        <header class="flex text-lg font-bold">
           <div>
             <!-- header section -->
-            <div class="flex h-64 xl:h-screen xl:items-center xl:px-20">
+            <div
+              class="flex h-96 items-end justify-end px-5 xl:h-screen xl:items-center xl:px-20"
+            >
               <div
                 class="flex flex-col xl:sticky xl:top-20 xl:flex-row xl:items-start xl:justify-start"
               >
                 <!-- logo & mission container -->
                 <div
-                  class="flex backdrop-blur-none xl:mb-20 xl:rounded-3xl xl:shadow-2xl xl:shadow-black"
+                  class="flex xl:mb-20 xl:rounded-3xl xl:shadow-2xl xl:shadow-black"
                 >
-                  <div class="flex xl:flex-row">
-                    <div class="z-10 w-1/2 p-6 xl:w-auto">
+                  <div class="h-full xl:flex xl:flex-row">
+                    <div class="hidden xl:z-10 xl:flex xl:w-auto xl:p-6">
                       <img
                         src="./images/17TIGERWRESTLING.jpg"
                         alt=""
@@ -69,10 +71,10 @@
                       />
                     </div>
                     <div
-                      class="xl:items-bottom flex items-center justify-center pt-3 text-saffron-600 xl:flex-col xl:p-4"
+                      class="xl:items-bottom flex items-end justify-end text-white decoration-black xl:flex-col xl:items-center xl:justify-start xl:p-4 xl:text-saffron-600"
                     >
                       <h1
-                        class="flex text-left text-lg capitalize xl:text-3xl xl:leading-loose"
+                        class="flex text-left text-lg capitalize decoration-black drop-shadow-2xl xl:text-3xl xl:leading-loose"
                       >
                         Building humble champions on and off the mat!
                       </h1>
@@ -89,7 +91,7 @@
                             viewBox="0 0 24 24"
                             stroke-width="1.5"
                             stroke="currentColor"
-                            class="text-boborder-bordeaux-800 mr-5 mt-5 h-20 w-20 rounded-lg bg-bordeaux-500 fill-current text-saffron-600 hover:scale-105 hover:text-white hover:shadow-saffron-100"
+                            class="text-boborder-bordeaux-800 h-20 w-20 rounded-lg bg-bordeaux-500 fill-current text-saffron-600 hover:scale-105 hover:text-white hover:shadow-saffron-100"
                           >
                             <path
                               stroke-linecap="round"
