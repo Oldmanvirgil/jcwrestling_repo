@@ -29,7 +29,7 @@ module.exports = {
         camBg: "url('/./src/images/camBg.png')",
         bigBg: "url('/./src/images/background image big.jpg')",
         heroBgVid: "url('/./images/src/images/hero _background_final_2.mp4')",
-        tigerBg: "url('/./src/images/JC Wrestling icon 2.jpg')",
+        tigerBg: "url('/./images/JC Wrestling icon 2.jpg')",
       },
       colors: {
         bordeaux: {
