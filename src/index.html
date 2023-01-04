@@ -146,7 +146,7 @@
                 </div>
 
                 <div
-                  class="mx-auto hidden w-full p-10 capitalize text-white xl:flex xl:flex-row xl:space-x-10"
+                  class="mx-auto hidden w-full  capitalize text-white xl:flex xl:flex-row xl:space-x-10"
                 >
                   <!-- Menu Items -->
                   <div
@@ -224,11 +224,25 @@
       <!-- Teams, & Information -->
 
       <div
-        class="relative flex w-full flex-col bg-bigBg bg-cover xl:mt-0 xl:items-end xl:pt-4"
+        class="relative flex w-full flex-col bg-bigBg bg-repeat-y bg-cover  "
       >
         <!-- facebook feed -->
-        <div class="flex w-full flex-col bg-black/50">
-          <div id="jchs" class="z-10 flex">
+        <div class="flex w-full flex-col">
+          
+          <div
+            class="flex w-full flex-col xl:h-screen justify-between "
+          >
+            <div
+              id="accordion-collapse"
+              data-accordion="collapse"
+              class="mx-auto flex w-full xl:h-screen flex-col justify-center  rounded-xl p-2 text-center xl:flex-row "
+            >
+              <!-- hall of fame -->
+              <div
+                id="accordion-collapse"
+                data-accordion="collapse"
+                class="flex  xl:w-4/12 flex-col p-2 items-start space-y-4 font-bold capitalize bg-blue-500/50 text-white duration-300 xl:items-start xl:h-screen"
+              ><div id="jchs" class="z-10 flex">
             <div class="flex flex-col space-y-2 rounded-3xl p-1">
               <div
                 id="accordion-collapse"
@@ -292,7 +306,7 @@
                   class="hidden"
                   aria-labelledby="accordion-collapse-heading-1"
                 >
-                  <div id="jchs_fbmb" class="flex flex-col">
+                  <div id="jchs_fbmb" class="flex  flex-col">
                     <div id="accordion-collapse" data-accordion="collapse">
                       <div
                         class="flex w-full items-start rounded-xl bg-saffron-200 p-2"
@@ -325,20 +339,6 @@
               </div>
             </div>
           </div>
-          <div
-            class="flex w-full flex-col items-end justify-end bg-red-500 p-10"
-          >
-            <div
-              id="accordion-collapse"
-              data-accordion="collapse"
-              class="mx-auto flex w-full flex-col items-start justify-between space-y-8 rounded-xl bg-green-500 p-2 text-center xl:flex-row xl:items-start xl:justify-end xl:space-x-20"
-            >
-              <!-- hall of fame -->
-              <div
-                id="accordion-collapse"
-                data-accordion="collapse"
-                class="flex w-full flex-col items-start space-y-4 bg-blue-500 font-bold capitalize text-white duration-300 xl:items-center"
-              >
                 <h2
                   id="hall_fame"
                   class="flex w-1/3 flex-col rounded-2xl text-center backdrop-blur-xl xl:w-2/3 xl:py-4 xl:px-6 xl:text-2xl"
@@ -603,19 +603,22 @@
               </div>
               <!-- jchs messageboard -->
               <div
-                class="flex w-full flex-row justify-end space-y-3 text-sm font-bold capitalize xl:text-2xl"
+                class="flex w-full flex-col xl:h-screen justify-around space-y-2 bg-red-500/50 p-2 text-sm font-bold capitalize xl:text-2xl">
+              
+              <div
+                class="flex w-full h-72 flex-row   text-sm font-bold capitalize xl:text-2xl"
               >
                 <div
-                  class="flex w-full flex-col justify-end space-y-3 text-sm font-bold capitalize xl:text-2xl"
+                  class="flex w-full flex-col  text-white  space-y-3 text-sm font-bold capitalize xl:text-2xl"
                 >
-                  <h2 class="text-white">
+                  <h2 class="flex mx-auto p-4 bg-white/10 rounded-xl backdrop-blur-sm">
                     junction city high school wrestling
                   </h2>
                   <a href="#jchs_messageBoard">
                     <h2 id="accordion-collapse-heading-1">
                       <button
                         type="button"
-                        class="menu-button"
+                        class="sidebar-items"
                         data-accordion-target="#accordion-collapse-messageBoard"
                         aria-expanded="false"
                         aria-controls="accordion-collapse-messageBoard"
@@ -642,7 +645,7 @@
                     <h2 id="accordion-collapse-heading-2">
                       <button
                         type="button"
-                        class="menu-button"
+                        class="sidebar-items"
                         data-accordion-target="#accordion-collapse-jchsSchedule"
                         aria-expanded="false"
                         aria-controls="accordion-collapse-jchsSchedule"
@@ -669,7 +672,7 @@
                     <h2 id="accordion-collapse-heading-3">
                       <button
                         type="button"
-                        class="menu-button"
+                        class="sidebar-items"
                         data-accordion-target="#accordion-collapse-jchsRoster"
                         aria-expanded="false"
                         aria-controls="accordion-collapse-jchsRoster"
@@ -693,14 +696,14 @@
                   </a>
                 </div>
                 <div
-                  class="flex w-full flex-col space-y-3 text-sm font-bold capitalize xl:text-2xl"
+                  class="flex w-full flex-col space-y-3 text-sm font-bold capitalize xl:text-2xl text-white"
                 >
-                  <h2 class="text-white">Oaklea Middle School Wrestling</h2>
+                  <h2 class="flex mx-auto p-4 bg-white/10 rounded-xl backdrop-blur-sm">Oaklea Middle School Wrestling</h2>
                   <a href="#oms-messageBoard">
                     <h2 id="accordion-collapse-heading-4">
                       <button
                         type="button"
-                        class="menu-button"
+                        class="sidebar-items"
                         data-accordion-target="#accordion-collapse-oms-messageBoard"
                         aria-expanded="false"
                         aria-controls="accordion-collapse-oms-messageBoard"
@@ -728,7 +731,7 @@
                     <h2 id="accordion-collapse-heading-5">
                       <button
                         type="button"
-                        class="menu-button"
+                        class="sidebar-items"
                         data-accordion-target="#accordion-collapse-omsSchedule"
                         aria-expanded="false"
                         aria-controls="accordion-collapse-omsSchedule"
@@ -755,7 +758,7 @@
                     <h2 id="accordion-collapse-heading-6">
                       <button
                         type="button"
-                        class="menu-button"
+                        class="sidebar-items"
                         data-accordion-target="#accordion-collapse-omsRoster"
                         aria-expanded="false"
                         aria-controls="accordion-collapse-omsRoster"
@@ -780,19 +783,19 @@
                 </div>
               </div>
               <div
-                class="flex w-full flex-row justify-end space-y-3 text-sm font-bold capitalize xl:text-2xl"
+                class="flex w-full flex-row h-72   text-sm font-bold capitalize xl:text-2xl"
               >
                 <div
-                  class="flex w-full flex-col space-y-3 text-sm font-bold capitalize xl:text-2xl"
+                  class="flex w-full flex-col text-white space-y-3 text-sm font-bold capitalize xl:text-2xl"
                 >
-                  <h2 class="text-white">
+                  <h2 class="flex mx-auto p-4 bg-white/10 rounded-xl backdrop-blur-sm">
                     Junction City Tiger Mat Club Wrestling
                   </h2>
                   <a href="#jctmc_fbmb">
                     <h2 id="accordion-collapse-heading-7">
                       <button
                         type="button"
-                        class="menu-button"
+                        class="sidebar-items"
                         data-accordion-target="#accordion-collapse-jctmc-messageBoard"
                         aria-expanded="false"
                         aria-controls="accordion-collapse-jctmc-messageBoard"
@@ -820,7 +823,7 @@
                     <h2 id="accordion-collapse-heading-8">
                       <button
                         type="button"
-                        class="menu-button"
+                        class="sidebar-items"
                         data-accordion-target="#accordion-collapse-jctmcSchedule"
                         aria-expanded="false"
                         aria-controls="accordion-collapse-jctmcSchedule"
@@ -847,7 +850,7 @@
                     <h2 id="accordion-collapse-heading-9">
                       <button
                         type="button"
-                        class="menu-button"
+                        class="sidebar-items"
                         data-accordion-target="#accordion-collapse-jctmcRoster"
                         aria-expanded="false"
                         aria-controls="accordion-collapse-jctmcRoster"
@@ -871,9 +874,9 @@
                   </a>
                 </div>
                 <div
-                  class="flex w-full flex-col space-y-4 text-xl font-bold capitalize text-white"
+                  class="flex w-full flex-col space-y-4 xl:text-2xl text-sm font-bold capitalize text-white"
                 >
-                  <div class="mx-auto w-2/3">information & links</div>
+                  <div class="flex mx-auto p-4 bg-white/10 rounded-xl backdrop-blur-sm">information & links</div>
 
                   <button class="sidebar-items">
                     <a
@@ -890,25 +893,26 @@
                     >
                   </button>
                   <button
-                    class="mx-auto flex w-2/3 flex-col rounded-xl bg-saffron-600 text-center capitalize text-bordeaux-800 duration-300 hover:bg-saffron-600 hover:text-bordeaux-800"
+                    class="flex mx-auto p-4 bg-white/10 rounded-xl backdrop-blur-sm"
                   >
                     <a href="#top" class="mx-auto">back to top</a>
                   </button>
                 </div>
               </div>
             </div>
+            </div>
 
             <div
               id="accordion-collapse-messageBoard"
-              class="hidden"
+              class="hidden w-full justify-start  p-8 bg-bigBg bg-cover"
               aria-labelledby="accordion-collapse-heading-1"
             >
-              <div id="jchs_messagerBoard" class="p-10">
+              <div id="jchs_messagerBoard" class="">
                 <div id="accordion-collapse" data-accordion="collapse">
-                  <div class="rounded-xl bg-saffron-200/40 p-2">
+                  <div class="flex mx-auto w-9/12 h-screen  rounded-xl">
                     <div
                       id="jchs_messageBoard"
-                      class="flex w-full flex-col items-start justify-center rounded-2xl bg-saffron-200/80 p-6 duration-300"
+                      class="flex w-full flex-col items-start justify-center rounded-2xl bg-saffron-200/40 p-6 duration-300"
                     >
                       <p
                         class="w-full py-4 text-center text-xl font-bold text-bordeaux-800"
