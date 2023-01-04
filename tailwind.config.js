@@ -22,12 +22,12 @@ module.exports = {
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        hallbg: "url('/./src/images/Hall of fame background no title.jpg')",
-        hallBgTop: "url('/./src/images/hall of fame background top.png')",
-        bryerBg: "url('/./src/images/bryerBg.png')",
-        evanBg: "url('/./src/images/evanBg.png')",
-        camBg: "url('/./src/images/camBg.png')",
-        bigBg: "url('/./src/images/background image big.jpg')",
+        hallbg: "url('/./images/Hall of fame background no title.jpg')",
+        hallBgTop: "url('/./images/hall of fame background top.png')",
+        bryerBg: "url('/./images/bryerBg.png')",
+        evanBg: "url('/./images/evanBg.png')",
+        camBg: "url('/./images/camBg.png')",
+        bigBg: "url('/./images/background image big.jpg')",
         heroBgVid: "url('/./images/src/images/hero _background_final_2.mp4')",
         tigerBg: "url('/./images/JC Wrestling icon 2.jpg')",
       },

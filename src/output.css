@@ -555,10 +555,6 @@ html {
   visibility: collapse;
 }
 
-.fixed {
-  position: fixed;
-}
-
 .relative {
   position: relative;
 }
@@ -641,12 +637,12 @@ html {
   display: none;
 }
 
-.h-96 {
-  height: 24rem;
-}
-
 .h-20 {
   height: 5rem;
+}
+
+.h-96 {
+  height: 24rem;
 }
 
 .h-full {
@@ -832,10 +828,6 @@ html {
   border-color: rgb(55 6 19 / var(--tw-border-opacity));
 }
 
-.bg-transparent {
-  background-color: transparent;
-}
-
 .bg-bordeaux-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(92 10 31 / var(--tw-bg-opacity));
@@ -877,12 +869,8 @@ html {
   background-color: rgb(0 0 0 / 0.4);
 }
 
-.bg-tigerBg {
-  background-image: url('/./images/JC Wrestling icon 2.jpg');
-}
-
 .bg-hallbg {
-  background-image: url('/./src/images/Hall of fame background no title.jpg');
+  background-image: url('/./images/Hall of fame background no title.jpg');
 }
 
 .bg-cover {
@@ -1067,12 +1055,6 @@ html {
 .drop-shadow-2xl {
   --tw-drop-shadow: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.backdrop-blur-2xl {
-  --tw-backdrop-blur: blur(40px);
-  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
 .backdrop-blur-md {
