@@ -939,6 +939,10 @@ html {
   padding-bottom: 0.25rem;
 }
 
+.pt-4 {
+  padding-top: 1rem;
+}
+
 .pb-5 {
   padding-bottom: 1.25rem;
 }
