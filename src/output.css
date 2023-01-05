@@ -1546,16 +1546,16 @@ html {
     border-radius: 1.5rem;
   }
 
-  .xl\:bg-cover {
-    background-size: cover;
-  }
-
   .xl\:p-6 {
     padding: 1.5rem;
   }
 
   .xl\:p-4 {
     padding: 1rem;
+  }
+
+  .xl\:p-8 {
+    padding: 2rem;
   }
 
   .xl\:px-20 {
