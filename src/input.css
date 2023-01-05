@@ -26,5 +26,5 @@
 }
 
 .program-dropdown {
-  @apply block w-full items-start justify-center rounded-2xl bg-saffron-200/80 p-6 duration-300;
+  @apply flex flex-col mx-auto w-9/12 rounded-xl;
 }
