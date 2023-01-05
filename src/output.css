@@ -625,10 +625,6 @@ html {
   margin-bottom: 2.5rem;
 }
 
-.block {
-  display: block;
-}
-
 .inline-block {
   display: inline-block;
 }
@@ -691,6 +687,10 @@ html {
 
 .w-10\/12 {
   width: 83.333333%;
+}
+
+.w-9\/12 {
+  width: 75%;
 }
 
 .w-6\/12 {
@@ -887,6 +887,10 @@ html {
   background-size: cover;
 }
 
+.bg-contain {
+  background-size: contain;
+}
+
 .bg-repeat-y {
   background-repeat: repeat-y;
 }
@@ -1010,11 +1014,6 @@ html {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .font-bold {
@@ -1545,6 +1544,10 @@ html {
 
   .xl\:rounded-3xl {
     border-radius: 1.5rem;
+  }
+
+  .xl\:bg-cover {
+    background-size: cover;
   }
 
   .xl\:p-6 {
