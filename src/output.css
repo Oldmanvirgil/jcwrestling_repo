@@ -649,8 +649,12 @@ html {
   height: 100%;
 }
 
-.h-6 {
-  height: 1.5rem;
+.h-40 {
+  height: 10rem;
+}
+
+.h-4 {
+  height: 1rem;
 }
 
 .h-72 {
@@ -677,12 +681,12 @@ html {
   width: 100vw;
 }
 
-.w-1\/2 {
-  width: 50%;
+.w-5\/12 {
+  width: 41.666667%;
 }
 
-.w-6 {
-  width: 1.5rem;
+.w-4 {
+  width: 1rem;
 }
 
 .w-10\/12 {
@@ -1101,6 +1105,21 @@ html {
   transition-duration: 300ms;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
 .menu-button2 {
   z-index: 10;
   margin-left: auto;
@@ -1112,10 +1131,11 @@ html {
   border-radius: 0.75rem;
   --tw-bg-opacity: 1;
   background-color: rgb(228 176 52 / var(--tw-bg-opacity));
-  padding: 0.25rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
   text-align: center;
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
   font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(55 6 19 / var(--tw-text-opacity));
@@ -1158,6 +1178,13 @@ html {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   --tw-shadow-color: #2d050f;
   --tw-shadow: var(--tw-shadow-colored);
+}
+
+@media (min-width: 1280px) {
+  .menu-button2 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
 }
 
 .menu-button {
@@ -1234,8 +1261,8 @@ html {
   width: 100%;
   border-radius: 0.75rem;
   background-color: rgb(255 255 255 / 0.1);
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   font-size: 0.75rem;
