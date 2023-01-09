@@ -666,10 +666,6 @@ html {
   height: 1.5rem;
 }
 
-.h-72 {
-  height: 18rem;
-}
-
 .h-screen {
   height: 100vh;
 }
@@ -700,6 +696,10 @@ html {
 
 .w-6 {
   width: 1.5rem;
+}
+
+.w-1\/4 {
+  width: 25%;
 }
 
 .w-10\/12 {
@@ -779,12 +779,6 @@ html {
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
 
-.space-y-2 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
-}
-
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -799,6 +793,10 @@ html {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-x-scroll {
+  overflow-x: scroll;
 }
 
 .overflow-y-scroll {
@@ -884,6 +882,11 @@ html {
 .bg-saffron-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(228 176 52 / var(--tw-bg-opacity));
+}
+
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
 
 .bg-white\/10 {
@@ -1524,6 +1527,15 @@ html {
     height: auto;
   }
 
+  .xl\:h-max {
+    height: -moz-max-content;
+    height: max-content;
+  }
+
+  .xl\:h-96 {
+    height: 24rem;
+  }
+
   .xl\:h-12 {
     height: 3rem;
   }
@@ -1590,6 +1602,12 @@ html {
     --tw-space-y-reverse: 0;
     margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+  }
+
+  .xl\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(2rem * var(--tw-space-x-reverse));
+    margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .xl\:space-y-10 > :not([hidden]) ~ :not([hidden]) {

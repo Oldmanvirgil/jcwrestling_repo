@@ -227,17 +227,17 @@
       <div class="relative flex w-full flex-col bg-bigBg bg-cover bg-repeat-y">
         <!-- facebook feed -->
         <div class="flex w-full flex-col">
-          <div class="flex w-full flex-col justify-center">
+          <div class="flex w-full flex-col  xl:h-screen justify-center">
             <div
               id="accordion-collapse"
               data-accordion="collapse"
-              class="xl: mx-auto flex w-full flex-col justify-center rounded-xl p-1 text-center xl:flex-row xl:p-8"
+              class="xl: mx-auto flex w-full  flex-col justify-center rounded-xl p-1 text-center xl:flex-row xl:p-8"
             >
               <!-- hall of fame -->
               <div
                 id="accordion-collapse"
                 data-accordion="collapse"
-                class="flex w-6/12 space-y-8  flex-col xl:w-1/4"
+                class="flex w-6/12 space-y-8   flex-col xl:w-1/4"
               >
                 <div
                   id=""
@@ -348,10 +348,10 @@
                   </div>
                 </div>
                 <div
-                  class="flex flex-row xl:h-screen justify-center items-center xl:w-10/12 my-auto bg-white/25 backdrop-blur-sm rounded-2xl xl:items-center "
+                  class="flex flex-row xl: justify-center items-center xl:w-10/12 my-auto bg-white/25 backdrop-blur-sm rounded-2xl xl:items-center "
                 
                 >
-                <div class="flex flex-col xl:h-screen space-y-8 p-2 py-8 w-full ">
+                <div class="flex flex-col xl:h-max space-y-8 p-2 py-8 w-full ">
                   <h2
                   id="hall_fame"
                   class="xl:full flex flex-col rounded-2xl  bg-saffron-600 px-2 text-center font-bold capitalize text-bordeaux-800 backdrop-blur-xl xl:py-2 xl:px-6 xl:text-2xl"
@@ -359,7 +359,7 @@
                   hall of fame
                 </h2>
                     <div
-                      class="flex   h-48 w-full flex-col items-start space-y-3  xl:space-y-8 overflow-y-scroll rounded-2xl p-2    text-xs font-bold capitalize text-white  scrollbar-hide xl:h-screen  xl:items-start  xl:pb-8"
+                      class="flex   h-48 w-full flex-col items-start space-y-3  xl:space-y-8  rounded-2xl p-2    text-xs font-bold capitalize text-white overflow-y-scroll scrollbar-hide xl:h-96  xl:items-start  xl:pb-8"
                     >
                       <div class="w-full">
                         <a href="#stateChampions">
@@ -637,13 +637,12 @@
               </div>
               <!-- jchs messageboard -->
               <div
-                class="flex w-full flex-col justify-around space-y-2 p-2 text-xs font-bold capitalize xl:h-screen xl:text-2xl"
+                class="flex w-full overflow-y-scroll scrollbar-hide overflow-x-scroll scrollbar-hide flex-row justify-around items-end space-x-2 xl:space-x-8 p-2 text-xs font-bold capitalize xl: xl:text-2xl"
               >
-                <div
-                  class="flex h-72 w-full flex-row space-x-2 text-xs font-bold capitalize xl:text-2xl"
-                >
+                
+                
                   <div
-                    class="flex w-full flex-col space-y-3 text-xs font-bold capitalize text-white xl:text-2xl"
+                    class="flex w-full flex-col  space-y-3 text-xs font-bold capitalize text-white xl:text-2xl"
                   >
                     <h2
                       class="mx-auto flex rounded-xl bg-white/10 p-4 backdrop-blur-sm"
@@ -829,12 +828,11 @@
                       </h2>
                     </a>
                   </div>
-                </div>
-                <div
-                  class="flex h-72 w-full flex-row text-xs font-bold capitalize xl:text-2xl"
-                >
+                
+
+                
                   <div
-                    class="flex w-full flex-col space-y-3 text-xs font-bold capitalize text-white xl:text-2xl"
+                    class="flex w-full flex-col  space-y-3 text-xs font-bold capitalize text-white xl:text-2xl"
                   >
                     <h2
                       class="mx-auto flex rounded-xl bg-white/10 p-4 backdrop-blur-sm"
@@ -950,15 +948,17 @@
                         >USA Wrestling Card</a
                       >
                     </button>
-                    <button
+                    
+                  </div>
+                
+              </div>
+              
+            </div>
+            <button
                       class="mx-auto flex rounded-xl bg-white/10 p-4 backdrop-blur-sm"
                     >
                       <a href="#top" class="mx-auto">back to top</a>
                     </button>
-                  </div>
-                </div>
-              </div>
-            </div>
 
             <div
               id="accordion-collapse-messageBoard"
