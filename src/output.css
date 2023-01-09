@@ -698,10 +698,6 @@ html {
   width: 1.5rem;
 }
 
-.w-1\/4 {
-  width: 25%;
-}
-
 .w-10\/12 {
   width: 83.333333%;
 }
@@ -763,10 +759,6 @@ html {
   justify-content: space-between;
 }
 
-.justify-around {
-  justify-content: space-around;
-}
-
 .space-y-3 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
@@ -779,24 +771,20 @@ html {
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
 
-.space-x-2 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
-.overflow-hidden {
-  overflow: hidden;
+.space-x-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.overflow-x-scroll {
-  overflow-x: scroll;
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .overflow-y-scroll {
@@ -875,22 +863,13 @@ html {
   background-color: rgb(255 240 206 / var(--tw-bg-opacity));
 }
 
-.bg-white\/25 {
-  background-color: rgb(255 255 255 / 0.25);
+.bg-white\/10 {
+  background-color: rgb(255 255 255 / 0.1);
 }
 
 .bg-saffron-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(228 176 52 / var(--tw-bg-opacity));
-}
-
-.bg-blue-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
-}
-
-.bg-white\/10 {
-  background-color: rgb(255 255 255 / 0.1);
 }
 
 .bg-saffron-200\/40 {
@@ -1343,7 +1322,7 @@ html {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  width: 25%;
+  width: 100%;
   border-radius: 0.75rem;
   padding: 0.5rem;
   text-align: center;
@@ -1584,12 +1563,20 @@ html {
     align-items: flex-start;
   }
 
+  .xl\:items-end {
+    align-items: flex-end;
+  }
+
   .xl\:items-center {
     align-items: center;
   }
 
   .xl\:justify-start {
     justify-content: flex-start;
+  }
+
+  .xl\:justify-center {
+    justify-content: center;
   }
 
   .xl\:space-x-10 > :not([hidden]) ~ :not([hidden]) {
@@ -1604,12 +1591,6 @@ html {
     margin-bottom: calc(2rem * var(--tw-space-y-reverse));
   }
 
-  .xl\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(2rem * var(--tw-space-x-reverse));
-    margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
   .xl\:space-y-10 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
@@ -1620,6 +1601,10 @@ html {
     --tw-space-x-reverse: 0;
     margin-right: calc(1.5rem * var(--tw-space-x-reverse));
     margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .xl\:overflow-y-scroll {
+    overflow-y: scroll;
   }
 
   .xl\:rounded-3xl {
@@ -1658,8 +1643,16 @@ html {
     padding-bottom: 3rem;
   }
 
+  .xl\:pl-8 {
+    padding-left: 2rem;
+  }
+
   .xl\:pb-8 {
     padding-bottom: 2rem;
+  }
+
+  .xl\:pr-96 {
+    padding-right: 24rem;
   }
 
   .xl\:pb-10 {
