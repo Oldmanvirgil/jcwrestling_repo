@@ -228,8 +228,8 @@
         class="relative flex h-full w-full flex-col bg-bigBg bg-cover bg-repeat-y py-8"
       >
         <!-- facebook feed -->
-        <div class="flex w-full flex-col ">
-          <div class="flex w-full flex-col space-y-8  xl:h-screen">
+        <div class="flex w-full flex-col">
+          <div class="flex w-full flex-col space-y-8 xl:h-screen">
             <div
               id="accordion-collapse"
               data-accordion="collapse"
@@ -239,7 +239,7 @@
               <div
                 id="accordion-collapse"
                 data-accordion="collapse"
-                class="flex w-6/12 flex-col items-start justify-start space-y-8  xl:w-1/4"
+                class="flex w-6/12 flex-col items-start justify-start space-y-8 xl:w-1/4"
               >
                 <div id="" class="xl: z-10 flex w-full flex-col items-start">
                   <div
@@ -633,331 +633,351 @@
               </div>
               <!-- jchs messageboard -->
               <div
-                class="border flex w-6/12 flex-row-reverse items-center backdrop-blur-sm   justify-start space-y-8 rounded-2xl xl:w-1/4 xl:flex-row"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="h-8 w-8 fill-current  text-white xl:h-12 xl:w-12"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M3 7.5L7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5"
-                  />
-                </svg>
-                <div
-                  class="bg-white/15 mx-auto flex h-48 flex-col justify-start  space-y-3 overflow-y-scroll rounded-2xl p-2 text-xs font-bold capitalize text-white backdrop-blur-sm scrollbar-hide xl:h-96 xl:items-center xl:space-y-8 xl:pb-8"
-                >
-                  <div
-                    class="flex w-full flex-col space-y-3 text-xs font-bold capitalize  text-white xl:text-2xl"
-                  >
-                    <h2
-                      class="bg-white/15 mx-auto flex w-full justify-center rounded-xl bg-white/25 p-4 backdrop-blur-sm"
+                class="my-auto flex flex-row-reverse items-center rounded-2xl border backdrop-blur-sm xl:w-10/12 py-8 xl:pl-60 xl:items-center xl:justify-start xl:flex-row"
+              ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="h-8 w-8 fill-current text-white xl:h-12 xl:w-12"
                     >
-                      junction city high school
-                    </h2>
-                    <a href="#jchs_messageBoard">
-                      <h2 id="accordion-collapse-heading-1">
-                        <button
-                          type="button"
-                          class="sidebar-items"
-                          data-accordion-target="#accordion-collapse-messageBoard"
-                          aria-expanded="false"
-                          aria-controls="accordion-collapse-messageBoard"
-                        >
-                          <span class="mx-auto text-white">
-                            Message Board
-                          </span>
-                          <svg
-                            data-accordion-icon
-                            class="h-4 w-4 shrink-0 rotate-180"
-                            fill="currentColor"
-                            viewBox="0 0 20 20"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              fill-rule="evenodd"
-                              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                              clip-rule="evenodd"
-                            ></path>
-                          </svg>
-                        </button>
-                      </h2>
-                    </a>
-
-                    <a href="#jchsSchedule">
-                      <h2 id="accordion-collapse-heading-2">
-                        <button
-                          type="button"
-                          class="sidebar-items"
-                          data-accordion-target="#accordion-collapse-jchsSchedule"
-                          aria-expanded="false"
-                          aria-controls="accordion-collapse-jchsSchedule"
-                        >
-                          <span class="mx-auto w-full text-white"
-                            >Schedule</span
-                          >
-                          <svg
-                            data-accordion-icon
-                            class="h-4 w-4 shrink-0"
-                            fill="currentColor"
-                            viewBox="0 0 20 20"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              fill-rule="evenodd"
-                              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                              clip-rule="evenodd"
-                            ></path>
-                          </svg>
-                        </button>
-                      </h2>
-                    </a>
-
-                    <a href="#jchsRoster">
-                      <h2 id="accordion-collapse-heading-3">
-                        <button
-                          type="button"
-                          class="sidebar-items"
-                          data-accordion-target="#accordion-collapse-jchsRoster"
-                          aria-expanded="false"
-                          aria-controls="accordion-collapse-jchsRoster"
-                        >
-                          <span class="mx-auto w-full text-white">Roster</span>
-                          <svg
-                            data-accordion-icon
-                            class="h-4 w-4 shrink-0"
-                            fill="currentColor"
-                            viewBox="0 0 20 20"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              fill-rule="evenodd"
-                              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                              clip-rule="evenodd"
-                            ></path>
-                          </svg>
-                        </button>
-                      </h2>
-                    </a>
-                  </div>
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M3 7.5L7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5"
+                      />
+                    </svg>
+                <div class="flex flex-col items-start justify-start  space-y-8  xl:h-max">
+                  
                   <div
-                    class="flex w-full flex-col space-y-3 text-xs font-bold capitalize text-white xl:text-2xl"
+                    class="flex w-full  flex-col items-center  justify-start space-y-8 rounded-2xl   backdrop-blur-sm  "
+                  ><h2
+                    id="hall_fame"
+                    class=" flex flex-col rounded-2xl bg-saffron-600 px-2 text-center font-bold capitalize text-bordeaux-800 backdrop-blur-xl xl:py-2 xl:px-6 xl:text-2xl"
                   >
-                    <h2
-                      class="flex w-full justify-center rounded-xl bg-white/10 p-4 backdrop-blur-sm"
-                    >
-                      Oaklea Middle School
-                    </h2>
-                    <a href="#oms-messageBoard">
-                      <h2 id="accordion-collapse-heading-4">
-                        <button
-                          type="button"
-                          class="sidebar-items"
-                          data-accordion-target="#accordion-collapse-oms-messageBoard"
-                          aria-expanded="false"
-                          aria-controls="accordion-collapse-oms-messageBoard"
-                        >
-                          <span class="mx-auto w-full text-white">
-                            Message Board</span
-                          >
-
-                          <svg
-                            data-accordion-icon
-                            class="h-4 w-4 shrink-0 rotate-180"
-                            fill="currentColor"
-                            viewBox="0 0 20 20"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              fill-rule="evenodd"
-                              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                              clip-rule="evenodd"
-                            ></path>
-                          </svg>
-                        </button>
-                      </h2>
-                    </a>
-
-                    <a href="#omsSchedule">
-                      <h2 id="accordion-collapse-heading-5">
-                        <button
-                          type="button"
-                          class="sidebar-items"
-                          data-accordion-target="#accordion-collapse-omsSchedule"
-                          aria-expanded="false"
-                          aria-controls="accordion-collapse-omsSchedule"
-                        >
-                          <span class="mx-auto w-full text-white"
-                            >Schedule</span
-                          >
-                          <svg
-                            data-accordion-icon
-                            class="h-4 w-4 shrink-0"
-                            fill="currentColor"
-                            viewBox="0 0 20 20"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              fill-rule="evenodd"
-                              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                              clip-rule="evenodd"
-                            ></path>
-                          </svg>
-                        </button>
-                      </h2>
-                    </a>
-
-                    <a href="#omsRoster">
-                      <h2 id="accordion-collapse-heading-6">
-                        <button
-                          type="button"
-                          class="sidebar-items"
-                          data-accordion-target="#accordion-collapse-omsRoster"
-                          aria-expanded="false"
-                          aria-controls="accordion-collapse-omsRoster"
-                        >
-                          <span class="mx-auto w-full text-white">Roster</span>
-                          <svg
-                            data-accordion-icon
-                            class="h-4 w-4 shrink-0"
-                            fill="currentColor"
-                            viewBox="0 0 20 20"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              fill-rule="evenodd"
-                              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                              clip-rule="evenodd"
-                            ></path>
-                          </svg>
-                        </button>
-                      </h2>
-                    </a>
-                  </div>
-
-                  <div
-                    class="flex w-full flex-col space-y-3 text-xs font-bold capitalize text-white xl:text-2xl"
-                  >
-                    <h2
-                      class="mx-auto flex w-full justify-center rounded-xl bg-white/10 p-4 backdrop-blur-sm"
-                    >
-                      Junction City Tiger Mat Club
-                    </h2>
-                    <a href="#jctmc_fbmb">
-                      <h2 id="accordion-collapse-heading-7">
-                        <button
-                          type="button"
-                          class="sidebar-items"
-                          data-accordion-target="#accordion-collapse-jctmc-messageBoard"
-                          aria-expanded="false"
-                          aria-controls="accordion-collapse-jctmc-messageBoard"
-                        >
-                          <span class="mx-auto w-full text-white">
-                            Message Board</span
-                          >
-
-                          <svg
-                            data-accordion-icon
-                            class="h-4 w-4 shrink-0 rotate-180"
-                            fill="currentColor"
-                            viewBox="0 0 20 20"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              fill-rule="evenodd"
-                              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                              clip-rule="evenodd"
-                            ></path>
-                          </svg>
-                        </button>
-                      </h2>
-                    </a>
-
-                    <a href="#jctmcSchedule">
-                      <h2 id="accordion-collapse-heading-8">
-                        <button
-                          type="button"
-                          class="sidebar-items"
-                          data-accordion-target="#accordion-collapse-jctmcSchedule"
-                          aria-expanded="false"
-                          aria-controls="accordion-collapse-jctmcSchedule"
-                        >
-                          <span class="mx-auto w-full text-white"
-                            >Schedule</span
-                          >
-                          <svg
-                            data-accordion-icon
-                            class="h-4 w-4 shrink-0"
-                            fill="currentColor"
-                            viewBox="0 0 20 20"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              fill-rule="evenodd"
-                              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                              clip-rule="evenodd"
-                            ></path>
-                          </svg>
-                        </button>
-                      </h2>
-                    </a>
-
-                    <a href="#jctmcRoster">
-                      <h2 id="accordion-collapse-heading-9">
-                        <button
-                          type="button"
-                          class="sidebar-items"
-                          data-accordion-target="#accordion-collapse-jctmcRoster"
-                          aria-expanded="false"
-                          aria-controls="accordion-collapse-jctmcRoster"
-                        >
-                          <span class="mx-auto w-full text-white">Roster</span>
-                          <svg
-                            data-accordion-icon
-                            class="h-4 w-4 shrink-0"
-                            fill="currentColor"
-                            viewBox="0 0 20 20"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              fill-rule="evenodd"
-                              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                              clip-rule="evenodd"
-                            ></path>
-                          </svg>
-                        </button>
-                      </h2>
-                    </a>
-                  </div>
-                  <div
-                    class="flex w-full flex-col space-y-4 text-xs font-bold capitalize text-white xl:text-2xl"
-                  >
+                    Programs & Teams
+                  </h2>
+                  <div class="">
+                    
                     <div
-                      class="mx-auto flex w-full justify-center rounded-xl bg-white/10 p-4 backdrop-blur-sm"
+                      class="bg-white/15 mx-auto flex h-48 flex-col justify-start space-y-3 overflow-y-scroll rounded-2xl p-2 text-xs font-bold capitalize text-white backdrop-blur-sm scrollbar-hide xl:h-96 xl:items-center xl:space-y-8 xl:pb-8"
                     >
-                      information & links
-                    </div>
+                      <div
+                        class="flex w-full flex-col space-y-3 text-xs font-bold capitalize text-white xl:text-2xl"
+                      >
+                        <h2
+                          class="bg-white/15 mx-auto flex w-full justify-center rounded-xl bg-white/25 p-4 backdrop-blur-sm"
+                        >
+                          junction city high school
+                        </h2>
+                        <a href="#jchs_messageBoard">
+                          <h2 id="accordion-collapse-heading-1">
+                            <button
+                              type="button"
+                              class="sidebar-items"
+                              data-accordion-target="#accordion-collapse-messageBoard"
+                              aria-expanded="false"
+                              aria-controls="accordion-collapse-messageBoard"
+                            >
+                              <span class="mx-auto text-white">
+                                Message Board
+                              </span>
+                              <svg
+                                data-accordion-icon
+                                class="h-4 w-4 shrink-0 rotate-180"
+                                fill="currentColor"
+                                viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  fill-rule="evenodd"
+                                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                  clip-rule="evenodd"
+                                ></path>
+                              </svg>
+                            </button>
+                          </h2>
+                        </a>
 
-                    <button class="sidebar-items">
-                      <a
-                        href="https://www.osaa.org/activities/wre"
-                        class="mx-auto"
-                        >OSAA information</a
+                        <a href="#jchsSchedule">
+                          <h2 id="accordion-collapse-heading-2">
+                            <button
+                              type="button"
+                              class="sidebar-items"
+                              data-accordion-target="#accordion-collapse-jchsSchedule"
+                              aria-expanded="false"
+                              aria-controls="accordion-collapse-jchsSchedule"
+                            >
+                              <span class="mx-auto w-full text-white"
+                                >Schedule</span
+                              >
+                              <svg
+                                data-accordion-icon
+                                class="h-4 w-4 shrink-0"
+                                fill="currentColor"
+                                viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  fill-rule="evenodd"
+                                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                  clip-rule="evenodd"
+                                ></path>
+                              </svg>
+                            </button>
+                          </h2>
+                        </a>
+
+                        <a href="#jchsRoster">
+                          <h2 id="accordion-collapse-heading-3">
+                            <button
+                              type="button"
+                              class="sidebar-items"
+                              data-accordion-target="#accordion-collapse-jchsRoster"
+                              aria-expanded="false"
+                              aria-controls="accordion-collapse-jchsRoster"
+                            >
+                              <span class="mx-auto w-full text-white"
+                                >Roster</span
+                              >
+                              <svg
+                                data-accordion-icon
+                                class="h-4 w-4 shrink-0"
+                                fill="currentColor"
+                                viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  fill-rule="evenodd"
+                                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                  clip-rule="evenodd"
+                                ></path>
+                              </svg>
+                            </button>
+                          </h2>
+                        </a>
+                      </div>
+                      <div
+                        class="flex w-full flex-col space-y-3 text-xs font-bold capitalize text-white xl:text-2xl"
                       >
-                    </button>
-                    <button class="sidebar-items">
-                      <a
-                        href="https://www.usawmembership.com/login"
-                        class="mx-auto"
-                        >USA Wrestling Card</a
+                        <h2
+                          class="flex w-full justify-center rounded-xl bg-white/10 p-4 backdrop-blur-sm"
+                        >
+                          Oaklea Middle School
+                        </h2>
+                        <a href="#oms-messageBoard">
+                          <h2 id="accordion-collapse-heading-4">
+                            <button
+                              type="button"
+                              class="sidebar-items"
+                              data-accordion-target="#accordion-collapse-oms-messageBoard"
+                              aria-expanded="false"
+                              aria-controls="accordion-collapse-oms-messageBoard"
+                            >
+                              <span class="mx-auto w-full text-white">
+                                Message Board</span
+                              >
+
+                              <svg
+                                data-accordion-icon
+                                class="h-4 w-4 shrink-0 rotate-180"
+                                fill="currentColor"
+                                viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  fill-rule="evenodd"
+                                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                  clip-rule="evenodd"
+                                ></path>
+                              </svg>
+                            </button>
+                          </h2>
+                        </a>
+
+                        <a href="#omsSchedule">
+                          <h2 id="accordion-collapse-heading-5">
+                            <button
+                              type="button"
+                              class="sidebar-items"
+                              data-accordion-target="#accordion-collapse-omsSchedule"
+                              aria-expanded="false"
+                              aria-controls="accordion-collapse-omsSchedule"
+                            >
+                              <span class="mx-auto w-full text-white"
+                                >Schedule</span
+                              >
+                              <svg
+                                data-accordion-icon
+                                class="h-4 w-4 shrink-0"
+                                fill="currentColor"
+                                viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  fill-rule="evenodd"
+                                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                  clip-rule="evenodd"
+                                ></path>
+                              </svg>
+                            </button>
+                          </h2>
+                        </a>
+
+                        <a href="#omsRoster">
+                          <h2 id="accordion-collapse-heading-6">
+                            <button
+                              type="button"
+                              class="sidebar-items"
+                              data-accordion-target="#accordion-collapse-omsRoster"
+                              aria-expanded="false"
+                              aria-controls="accordion-collapse-omsRoster"
+                            >
+                              <span class="mx-auto w-full text-white"
+                                >Roster</span
+                              >
+                              <svg
+                                data-accordion-icon
+                                class="h-4 w-4 shrink-0"
+                                fill="currentColor"
+                                viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  fill-rule="evenodd"
+                                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                  clip-rule="evenodd"
+                                ></path>
+                              </svg>
+                            </button>
+                          </h2>
+                        </a>
+                      </div>
+
+                      <div
+                        class="flex w-full flex-col space-y-3 text-xs font-bold capitalize text-white xl:text-2xl"
                       >
-                    </button>
+                        <h2
+                          class="mx-auto flex w-full justify-center rounded-xl bg-white/10 p-4 backdrop-blur-sm"
+                        >
+                          Junction City Tiger Mat Club
+                        </h2>
+                        <a href="#jctmc_fbmb">
+                          <h2 id="accordion-collapse-heading-7">
+                            <button
+                              type="button"
+                              class="sidebar-items"
+                              data-accordion-target="#accordion-collapse-jctmc-messageBoard"
+                              aria-expanded="false"
+                              aria-controls="accordion-collapse-jctmc-messageBoard"
+                            >
+                              <span class="mx-auto w-full text-white">
+                                Message Board</span
+                              >
+
+                              <svg
+                                data-accordion-icon
+                                class="h-4 w-4 shrink-0 rotate-180"
+                                fill="currentColor"
+                                viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  fill-rule="evenodd"
+                                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                  clip-rule="evenodd"
+                                ></path>
+                              </svg>
+                            </button>
+                          </h2>
+                        </a>
+
+                        <a href="#jctmcSchedule">
+                          <h2 id="accordion-collapse-heading-8">
+                            <button
+                              type="button"
+                              class="sidebar-items"
+                              data-accordion-target="#accordion-collapse-jctmcSchedule"
+                              aria-expanded="false"
+                              aria-controls="accordion-collapse-jctmcSchedule"
+                            >
+                              <span class="mx-auto w-full text-white"
+                                >Schedule</span
+                              >
+                              <svg
+                                data-accordion-icon
+                                class="h-4 w-4 shrink-0"
+                                fill="currentColor"
+                                viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  fill-rule="evenodd"
+                                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                  clip-rule="evenodd"
+                                ></path>
+                              </svg>
+                            </button>
+                          </h2>
+                        </a>
+
+                        <a href="#jctmcRoster">
+                          <h2 id="accordion-collapse-heading-9">
+                            <button
+                              type="button"
+                              class="sidebar-items"
+                              data-accordion-target="#accordion-collapse-jctmcRoster"
+                              aria-expanded="false"
+                              aria-controls="accordion-collapse-jctmcRoster"
+                            >
+                              <span class="mx-auto w-full text-white"
+                                >Roster</span
+                              >
+                              <svg
+                                data-accordion-icon
+                                class="h-4 w-4 shrink-0"
+                                fill="currentColor"
+                                viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  fill-rule="evenodd"
+                                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                  clip-rule="evenodd"
+                                ></path>
+                              </svg>
+                            </button>
+                          </h2>
+                        </a>
+                      </div>
+                      <div
+                        class="flex w-full flex-col space-y-4 text-xs font-bold capitalize text-white xl:text-2xl"
+                      >
+                        <div
+                          class="mx-auto flex w-full justify-center rounded-xl bg-white/10 p-4 backdrop-blur-sm"
+                        >
+                          information & links
+                        </div>
+
+                        <button class="sidebar-items">
+                          <a
+                            href="https://www.osaa.org/activities/wre"
+                            class="mx-auto"
+                            >OSAA information</a
+                          >
+                        </button>
+                        <button class="sidebar-items">
+                          <a
+                            href="https://www.usawmembership.com/login"
+                            class="mx-auto"
+                            >USA Wrestling Card</a
+                          >
+                        </button>
+                      </div>
+                    </div>
                   </div>
+                </div>
                 </div>
               </div>
             </div>

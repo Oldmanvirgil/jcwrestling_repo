@@ -1670,6 +1670,10 @@ html {
     padding-bottom: 2rem;
   }
 
+  .xl\:pl-60 {
+    padding-left: 15rem;
+  }
+
   .xl\:pb-10 {
     padding-bottom: 2.5rem;
   }
