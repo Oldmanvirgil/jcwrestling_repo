@@ -666,6 +666,10 @@ html {
   height: 1.5rem;
 }
 
+.h-8 {
+  height: 2rem;
+}
+
 .h-screen {
   height: 100vh;
 }
@@ -698,6 +702,10 @@ html {
   width: 1.5rem;
 }
 
+.w-8 {
+  width: 2rem;
+}
+
 .w-10\/12 {
   width: 83.333333%;
 }
@@ -725,6 +733,10 @@ html {
 
 .flex-row {
   flex-direction: row;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
 }
 
 .flex-col {
@@ -771,6 +783,12 @@ html {
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
 
+.space-y-12 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(3rem * var(--tw-space-y-reverse));
+}
+
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
@@ -810,6 +828,10 @@ html {
 .rounded-t-3xl {
   border-top-left-radius: 1.5rem;
   border-top-right-radius: 1.5rem;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-x-4 {
@@ -863,13 +885,17 @@ html {
   background-color: rgb(255 240 206 / var(--tw-bg-opacity));
 }
 
-.bg-white\/10 {
-  background-color: rgb(255 255 255 / 0.1);
-}
-
 .bg-saffron-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(228 176 52 / var(--tw-bg-opacity));
+}
+
+.bg-white\/25 {
+  background-color: rgb(255 255 255 / 0.25);
+}
+
+.bg-white\/10 {
+  background-color: rgb(255 255 255 / 0.1);
 }
 
 .bg-saffron-200\/40 {
@@ -946,6 +972,11 @@ html {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .px-2 {
@@ -1563,10 +1594,6 @@ html {
     align-items: flex-start;
   }
 
-  .xl\:items-end {
-    align-items: flex-end;
-  }
-
   .xl\:items-center {
     align-items: center;
   }
@@ -1601,10 +1628,6 @@ html {
     --tw-space-x-reverse: 0;
     margin-right: calc(1.5rem * var(--tw-space-x-reverse));
     margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .xl\:overflow-y-scroll {
-    overflow-y: scroll;
   }
 
   .xl\:rounded-3xl {
@@ -1643,16 +1666,8 @@ html {
     padding-bottom: 3rem;
   }
 
-  .xl\:pl-8 {
-    padding-left: 2rem;
-  }
-
   .xl\:pb-8 {
     padding-bottom: 2rem;
-  }
-
-  .xl\:pr-96 {
-    padding-right: 24rem;
   }
 
   .xl\:pb-10 {
