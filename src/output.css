@@ -583,12 +583,16 @@ html {
   top: 2.5rem;
 }
 
-.top-48 {
-  top: 12rem;
+.top-20 {
+  top: 5rem;
 }
 
-.top-16 {
-  top: 4rem;
+.top-9 {
+  top: 2.25rem;
+}
+
+.top-32 {
+  top: 8rem;
 }
 
 .z-40 {
@@ -601,6 +605,10 @@ html {
 
 .z-20 {
   z-index: 20;
+}
+
+.z-0 {
+  z-index: 0;
 }
 
 .m-0 {
@@ -1480,6 +1488,10 @@ html {
     top: 9rem;
   }
 
+  .xl\:top-48 {
+    top: 12rem;
+  }
+
   .xl\:top-32 {
     top: 8rem;
   }
@@ -1494,10 +1506,6 @@ html {
 
   .xl\:top-44 {
     top: 11rem;
-  }
-
-  .xl\:top-48 {
-    top: 12rem;
   }
 
   .xl\:top-64 {
@@ -1668,10 +1676,6 @@ html {
 
   .xl\:pb-8 {
     padding-bottom: 2rem;
-  }
-
-  .xl\:pl-60 {
-    padding-left: 15rem;
   }
 
   .xl\:pb-10 {
