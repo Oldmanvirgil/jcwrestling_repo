@@ -583,10 +583,6 @@ html {
   top: 2.5rem;
 }
 
-.top-96 {
-  top: 24rem;
-}
-
 .top-20 {
   top: 5rem;
 }
@@ -918,11 +914,6 @@ html {
   background-color: rgb(255 240 206 / 0.4);
 }
 
-.bg-red-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
-}
-
 .bg-transparent {
   background-color: transparent;
 }
@@ -941,10 +932,6 @@ html {
 
 .bg-cover {
   background-size: cover;
-}
-
-.bg-contain {
-  background-size: contain;
 }
 
 .bg-repeat-y {
@@ -967,12 +954,12 @@ html {
   padding: 0.25rem;
 }
 
-.p-8 {
-  padding: 2rem;
-}
-
 .p-6 {
   padding: 1.5rem;
+}
+
+.p-8 {
+  padding: 2rem;
 }
 
 .p-10 {
