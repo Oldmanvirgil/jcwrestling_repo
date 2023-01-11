@@ -26,7 +26,7 @@
     <!-- header & Hero section -->
     <div
       id="top"
-      class="relative m-0 mx-auto w-full flex-col items-center justify-start bg-black"
+      class="relative m-0 mx-auto w-full flex-col items-center justify-start bg-black  "
     >
       <div
         class="mx-auto flex w-full flex-col items-start justify-start xl:flex xl:h-screen"
@@ -183,6 +183,9 @@
                           <a href="#hall_fame" class="pl-4">Hall of fame</a>
                         </button>
                         <button class="header-menu">
+                          <a href="#info" class="pl-4">Information & Links</a>
+                        </button>
+                        <button class="header-menu">
                           <a
                             href="https://www.facebook.com/profile.php?id=100046953702350"
                           >
@@ -225,7 +228,7 @@
       <!-- Teams, & Information -->
 
       <div
-        class="relative flex h-full w-full flex-col bg-bigBg bg-cover bg-repeat-y py-8"
+        class="relative flex h-full w-full flex-col bg-bigBg bg-cover bg-repeat-y py-8 overflow-y-scroll scrollbar-hide"
       >
         <!-- facebook feed -->
         <div class="flex w-full flex-col">
@@ -313,7 +316,7 @@
                             data-accordion="collapse"
                           >
                             <div
-                              class="flex w-full items-start rounded-xl bg-saffron-200 p-2"
+                              class="flex w-full items-start rounded-xl  bg-saffron-200 p-2"
                             >
                               <div
                                 class="fb-page"
@@ -665,7 +668,7 @@
                       <div
                         class="bg-white/15 mx-auto flex h-48 flex-col justify-start space-y-3 overflow-y-scroll rounded-2xl p-2 text-xs font-bold capitalize text-white backdrop-blur-sm scrollbar-hide xl:h-96 xl:items-center xl:space-y-8 xl:pb-8"
                       >
-                        <div
+                        <div id="jchs"
                           class="flex w-full flex-col space-y-3 text-xs font-bold capitalize text-white xl:text-2xl"
                         >
                           <h2
@@ -761,6 +764,7 @@
                           </a>
                         </div>
                         <div
+                        id="oms"
                           class="flex w-full flex-col space-y-3 text-xs font-bold capitalize text-white xl:text-2xl"
                         >
                           <h2
@@ -858,6 +862,7 @@
                         </div>
 
                         <div
+                        id="jctmc"
                           class="flex w-full flex-col space-y-3 text-xs font-bold capitalize text-white xl:text-2xl"
                         >
                           <h2
@@ -953,7 +958,7 @@
                             </h2>
                           </a>
                         </div>
-                        <div
+                        <div id="info"
                           class="flex w-full flex-col space-y-4 text-xs font-bold capitalize text-white xl:text-2xl"
                         >
                           <div
@@ -1754,48 +1759,48 @@
       <div>
         <div
           id="dropdown"
-          class="text-boborder-bordeaux-800 relative z-40 mt-2 mb-10 hidden w-full rounded-3xl border-x-4 border-bordeaux-800 bg-saffron-600 py-4 px-4 capitalize shadow-2xl shadow-black backdrop-blur-md xl:hidden xl:align-bottom"
+          class=" relative z-40 mt-2 mb-10 hidden w-1/2 rounded-3xl border-x-4 border-bordeaux-800 bg-saffron-600 py-4 px-4 capitalize shadow-2xl shadow-black backdrop-blur-md xl:hidden "
         >
-          <ul class="flex w-full flex-col py-2 text-lg font-bold">
+          <ul class="flex w-full  items-center justify-center flex-col py-2 text-xs font-bold">
             <li>
               <a
                 href="#jchs"
-                class="hover:bg-boborder-bordeaux-800 my-2 flex rounded-lg bg-bordeaux-800 py-2 pl-10 text-saffron-600 duration-300 hover:translate-x-1 hover:bg-saffron-100 hover:text-bordeaux-800 hover:shadow-lg hover:shadow-black"
+                class="hover:bg-boborder-bordeaux-800 my-2 flex rounded-lg bg-bordeaux-800 p-2  text-saffron-600 duration-300 hover:translate-x-1 hover:bg-saffron-100 hover:text-bordeaux-800 hover:shadow-lg hover:shadow-black"
                 >junction city high school</a
               >
             </li>
             <li>
               <a
                 href="#oms"
-                class="hover:bg-boborder-bordeaux-800 my-2 flex rounded-lg bg-bordeaux-800 py-2 pl-10 text-saffron-600 duration-300 hover:translate-x-1 hover:bg-saffron-100 hover:text-bordeaux-800 hover:shadow-lg hover:shadow-black"
+                class="hover:bg-boborder-bordeaux-800 my-2 flex rounded-lg bg-bordeaux-800 p-2  text-saffron-600 duration-300 hover:translate-x-1 hover:bg-saffron-100 hover:text-bordeaux-800 hover:shadow-lg hover:shadow-black"
                 >Oaklea middle school</a
               >
             </li>
             <li>
               <a
                 href="#jctmc"
-                class="hover:bg-boborder-bordeaux-800 my-2 flex rounded-lg bg-bordeaux-800 py-2 pl-10 text-saffron-600 duration-300 hover:translate-x-1 hover:bg-saffron-100 hover:text-bordeaux-800 hover:shadow-lg hover:shadow-black"
+                class="hover:bg-boborder-bordeaux-800 my-2 flex rounded-lg bg-bordeaux-800 p-2  text-saffron-600 duration-300 hover:translate-x-1 hover:bg-saffron-100 hover:text-bordeaux-800 hover:shadow-lg hover:shadow-black"
                 >junction city tiger mat club</a
               >
             </li>
             <li>
               <a
                 href="#hall_fame"
-                class="hover:bg-boborder-bordeaux-800 my-2 flex rounded-lg bg-bordeaux-800 py-2 pl-10 text-saffron-600 duration-300 hover:translate-x-1 hover:bg-saffron-100 hover:text-bordeaux-800 hover:shadow-lg hover:shadow-black"
+                class="hover:bg-boborder-bordeaux-800 my-2 flex rounded-lg bg-bordeaux-800 p-2  text-saffron-600 duration-300 hover:translate-x-1 hover:bg-saffron-100 hover:text-bordeaux-800 hover:shadow-lg hover:shadow-black"
                 >JC hall of fame & record book</a
               >
             </li>
             <li>
               <a
                 href="#osaa"
-                class="hover:bg-boborder-bordeaux-800 my-2 flex rounded-lg bg-bordeaux-800 py-2 pl-10 text-saffron-600 duration-300 hover:translate-x-1 hover:bg-saffron-100 hover:text-bordeaux-800 hover:shadow-lg hover:shadow-black"
+                class="hover:bg-boborder-bordeaux-800 my-2 flex rounded-lg bg-bordeaux-800 p-2  text-saffron-600 duration-300 hover:translate-x-1 hover:bg-saffron-100 hover:text-bordeaux-800 hover:shadow-lg hover:shadow-black"
                 >OSAA lins</a
               >
             </li>
             <li>
               <a
                 href="#coaching"
-                class="hover:bg-boborder-bordeaux-800 my-2 flex rounded-lg bg-bordeaux-800 py-2 pl-10 text-saffron-600 duration-300 hover:translate-x-1 hover:bg-saffron-100 hover:text-bordeaux-800 hover:shadow-lg hover:shadow-black"
+                class="hover:bg-boborder-bordeaux-800 my-2 flex rounded-lg bg-bordeaux-800 p-2  text-saffron-600 duration-300 hover:translate-x-1 hover:bg-saffron-100 hover:text-bordeaux-800 hover:shadow-lg hover:shadow-black"
                 >coaching opportunities</a
               >
             </li>
