@@ -1506,8 +1506,8 @@ html {
     top: 9rem;
   }
 
-  .xl\:top-96 {
-    top: 24rem;
+  .xl\:top-28 {
+    top: 7rem;
   }
 
   .xl\:top-32 {
@@ -1582,10 +1582,6 @@ html {
 
   .xl\:h-3\/4 {
     height: 75%;
-  }
-
-  .xl\:h-1\/5 {
-    height: 20%;
   }
 
   .xl\:w-full {
