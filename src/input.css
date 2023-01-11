@@ -19,7 +19,7 @@
 }
 
 .sidebar-items {
-  @apply mx-auto flex  w-full rounded-xl  p-2 text-center text-xs capitalize backdrop-blur duration-300 hover:translate-x-5  hover:bg-saffron-600 hover:text-bordeaux-800 xl:text-base;
+  @apply  flex w-full  rounded-xl  p-2 text-center text-xs capitalize backdrop-blur duration-300 hover:translate-x-5  hover:bg-saffron-600 hover:text-bordeaux-800 xl:text-base;
 }
 .header-menu {
   @apply rounded-xl px-5 py-1 text-left capitalize duration-300 hover:translate-x-5 hover:bg-saffron-600 hover:text-bordeaux-800;
